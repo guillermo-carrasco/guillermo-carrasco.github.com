@@ -2,7 +2,7 @@
 title: Mussol's blog
 email: guille.ch.88@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Blog about science, technology, computer science and bioinformatics.
+  Blog about science, technology, programming and bioinformatics.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://mussol.org" # the base hostname & protocol for your site
 twitter_username: guillemch
