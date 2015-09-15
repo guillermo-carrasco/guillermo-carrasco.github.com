@@ -50,3 +50,9 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+// Justify text in post contents
+.post-content {
+    text-align: justify;
+    text-justify: inter-word;
+}
