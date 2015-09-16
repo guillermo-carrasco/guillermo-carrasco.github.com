@@ -7,7 +7,7 @@ To run it locally, you'll need to:
 1. Clone the repository: `git clone https://github.com/guillermo-carrasco/guillermo-carrasco.github.com.git`
 2. [Install Jekyll][install-jekyll]
 3. Run the project using the development configuration (just for the base url to work:)
-`jekyll serve --config _config.yml,_config_devel.yml`
+`jekyll serve --config _config.yml,_config_devel.yml --drafts`
 
 ## Structure
 The project follows the standard Jekyll structure. I also added a directory called

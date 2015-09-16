@@ -3,6 +3,11 @@ layout: post
 title:  "Collecting disk usage metrics and plotting with Python"
 date:   2013-06-01
 comments: true
+tags:
+    - Python
+    - programming
+    - metrics
+    - devops
 ---
 
 Sometimes, when doing performance tests, you cannot avoid having to take some low-level system metrics.
