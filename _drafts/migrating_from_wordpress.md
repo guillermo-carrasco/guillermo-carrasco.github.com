@@ -21,3 +21,13 @@ WordPress is free, but I paied my domain and then I had to pay more for WordPres
 to allow me to use it...
 
 # How?
+
+# Create a skeleton with Jekyll
+
+# Google analytics
+One of the things that made me hesitate more about migrating was WordPress stats
+page. The stats page in WordPress is so nice and gives you a very nice report on
+your blog statistics like: Visitors, views, likes, countries, clicks, etc.
+
+To get at least some basic stats about my blog, I just decided to go for Google
+analytics, as it is free and easy to integrate.
