@@ -37,5 +37,5 @@ so in my [GitHub][GitHub] you can find the ipython notebook and the disk metrics
 
 [seal]:     http://biodoop-seal.sourceforge.net/index.html
 [BWA]:      http://bio-bwa.sourceforge.net
-[notebook]:  http://nbviewer.ipython.org/urls/raw.github.com/guillermo-carrasco/mussolblog/master/Collecting_disk_usage_metrics_and_plotting_them_with_python/Collecting_metrics_of_disk_usage_with_SAR.ipynb
-[GitHub]:   https://github.com/guillermo-carrasco/mussolblog/tree/master/Collecting_disk_usage_metrics_and_plotting_them_with_python
+[notebook]:  http://nbviewer.ipython.org/urls/raw.github.com/guillermo-carrasco/guillermo-carrasco.github.io/master/assets/codes/collecting_disk_usage_metrics_and_plotting_them_with_python/Collecting_metrics_of_disk_usage_with_SAR.ipynb
+[GitHub]:   https://github.com/guillermo-carrasco/guillermo-carrasco.github.io/tree/master/assets/codes/collecting_disk_usage_metrics_and_plotting_them_with_python
