@@ -29,6 +29,9 @@ to allow me to use it...
 Easy peasy, just type `jekyll new <name_of_your_blog>` and you already have a working
 blank blog.
 
+Configs changed: permalink to pretty to match WordPress URL's, some CSS to make it
+a bit of my own. Devel configuratio to load drafts and change base URL
+
 ### Discussions and comments
 
 Comments and discussions is another feature I didn't want to loose. After some googling,
