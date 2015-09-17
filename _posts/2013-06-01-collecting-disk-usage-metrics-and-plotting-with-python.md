@@ -41,6 +41,9 @@ You can see 4 picks of intense I/O in the graphics on the notebook, correspondin
 I try to make my posts in such a way that anyone can reproduce them,
 so in my [GitHub][GitHub] you can find the ipython notebook and the disk metrics file.
 
+
+<!--Links-->
+
 [seal]:     http://biodoop-seal.sourceforge.net/index.html
 [BWA]:      http://bio-bwa.sourceforge.net
 [notebook]:  http://nbviewer.ipython.org/github/guillermo-carrasco/guillermo-carrasco.github.com/blob/master/assets/codes/collecting-disk-usage-metrics-and-plotting-with-python/Collecting_metrics_of_disk_usage_with_SAR.ipynb

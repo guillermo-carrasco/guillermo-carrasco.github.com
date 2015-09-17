@@ -53,8 +53,12 @@ One of the things that made me hesitate more about migrating was WordPress stats
 page. The stats page in WordPress is so nice and gives you a very nice report on
 your blog statistics like: Visitors, views, likes, countries, clicks, etc.
 
-To get at least some basic stats about my blog, I just decided to go for Google
-analytics, as it is free and easy to integrate.
+To get at least some basic stats about my blog, I just decided to go for [Google analytics][google_analytics],
+as it is free and easy to integrate. Like disqus, only adding a small
+JS snipped in all pages you want to track is enough after signing in into Google
+Analytics and linking your page. In this case though, you can't recover stats from
+WordPress, which is a pity since I had stats from 2012. Not a big deal though.
 
 [disqus]: https://disqus.com/
 [import_instructions]: https://help.disqus.com/customer/portal/articles/466255-importing-comments-from-wordpress
+[google_analytics]: http://www.google.com/analytics/
