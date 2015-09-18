@@ -70,7 +70,7 @@ directory and change the ownership to munge user:
 And that’s all! You can now submit jobs to your mini SLURM cluster, try it out with
 this simple batch script:
 
-{% highlight bash %}
+{% highlight bash linenos %}
 #SBATCH -p debug
 #SBATCH -n 1
 #SBATCH -t 12:00:00
