@@ -32,6 +32,8 @@ blank blog.
 Configs changed: permalink to pretty to match WordPress URL's, some CSS to make it
 a bit of my own. Devel configuratio to load drafts and change base URL
 
+Added redcarpet extension for markdown parsin github style
+
 ### Discussions and comments
 
 Comments and discussions is another feature I didn't want to loose. After some googling,
