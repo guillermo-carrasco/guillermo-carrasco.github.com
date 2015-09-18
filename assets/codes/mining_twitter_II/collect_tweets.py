@@ -31,7 +31,8 @@ if __name__ == '__main__':
     r = api.request('statuses/filter', {'track':'#peaceday', 'language': 'en'})
     for tweet in r:
         # Exclude retweets and tweets without location
-        if not 'RT' in tweet.get('text') and tweet.get('geo'):
+        # Retweets can be distinguished from typical Tweets by the existence of a retweeted_status attribute.
+        if not tweet.get('retweeted_status') and tweet.get('geo'):
             # Set MongoDB id
             tweet['_id'] = tweet.get('id_str')
             tweets_coll.insert(tweet)
