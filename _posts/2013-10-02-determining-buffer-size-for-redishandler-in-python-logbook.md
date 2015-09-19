@@ -76,5 +76,5 @@ of the handler (you can see our discussions in the [pull request][pr] to the mas
 [logbook]: http://pythonhosted.org/Logbook/
 [quickstart]: http://pythonhosted.org/Logbook/quickstart.html
 [gustavo]: http://gjcarneiro.blogspot.se/
-[script]: https://github.com/guillermo-carrasco/guillermo-carrasco.github.io/blob/master/assets/codes/determining-buffer-size-for-redishandler-in-python-logbook/redis_performance.py
+[script]: {{ site.url }}/assets/codes/determining-buffer-size-for-redishandler-in-python-logbook/redis_performance.py
 [pr]: https://github.com/mitsuhiko/logbook/pull/92
