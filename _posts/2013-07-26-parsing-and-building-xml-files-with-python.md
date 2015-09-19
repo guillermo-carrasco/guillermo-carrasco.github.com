@@ -24,21 +24,21 @@ and work with basic XML files in Python.
 First, lets define our XML file. Suppose we want to store an XML file that describes
 programming languages and some information about them. We start with this simple test.xml:
 
-{% highlight xml %}
+```xml
 <Languages>
     <Python version="2.7">
         <Properties interpreted="yes" />
     </Python>
 </Languages>
-{% endhighlight %}
+```
 
 This file is simple but at the same time has all what we need. The first thing to do is parse the file:
 
-{% highlight python %}
+```python
 from xml.etree import ElementTree as ET
 
 lang = ET.parse('test.xml')
-{% endhighlight %}
+```
 
 If we check the type of the variable lang, we’ll see that this is ElementTree.
 **An ElementTree represents the whole XML file**. ElementTree has some searching
@@ -50,7 +50,7 @@ Elements are blocks of XML and can be nested. They have two basic properties:
 the **tag** and the **attributes**.
 The tag is the “name” of the block, and attributes is the list of attributes of the block. Let’s see this in our example:
 
-{% highlight python %}
+```python
 In [10]: languages = lang.getroot()
 In [11]: type(languages)
 Out[11]: xml.etree.ElementTree.Element
@@ -64,7 +64,7 @@ In [21]: python.tag
 Out[21]: 'Python'
 In [22]: python.attrib
 Out[22]: {'version': '2.7'}
-{% endhighlight %}
+```
 
 As you can see, children of XML Elements are list of Elements. As they’re lists,
 you can apply list operations such as _append_ or _extend_. In fact, this is how you modify the document.
@@ -76,25 +76,25 @@ How to modify the XML file? Imagine we want to modify the Python description.
 For example, we could want to add a new property that describes how the typing is done.
 As said before, attributes are dictionaries, so we just need to add the corresponding (key, value) pair:
 
-{% highlight python %}
+```python
 In [23]: python_properties = python.find('Properties')
 In [24]: python_properties.attrib['typing'] = 'duck'
-{% endhighlight %}
+```
 
 What if we want to add another child, for example one that lists some language-related
 projects? Well, is just a matter of creating a new Element and appending it to the Python Element:
 
-{% highlight python %}
+```python
 In [25]: projects = ET.Element('Projects')
 In [26]: django = ET.Element('Django', type='Web Framework')
 In [27]: projects.append(django)
 In [28]: #And so on...
 In [29]: python.append(projects)
-{% endhighlight %}
+```
 
 At this moment, our XML looks like this:
 
-{% highlight xml linenos %}
+```xml
 <Languages>
     <Python typing="duck" version="2.7">
         <Properties cross-platform="yes" typing="duck" />
@@ -103,21 +103,21 @@ At this moment, our XML looks like this:
         </Projects>
     </Python>
 </Languages>
-{% endhighlight %}
+```
 
 Easy peasy, rigth? What about adding a new programming language to the list?
 
-{% highlight python %}
+```python
 In [30]: c = ET.Element('C')
 In [31]: c.attrib['cross-platform'] = 'yes'
 In [32]: c.attrib['typing'] = 'static'
 In [33]: languages.append(c)
 In [34]: #And yes, you can add more properties, projects, etc...
-{% endhighlight %}
+```
 
 And here we have our final XML:
 
-{% highlight xml linenos %}
+```xml
 <Languages>
     <Python typing="duck" version="2.7">
         <Properties cross-platform="yes" typing="duck" />
@@ -127,7 +127,7 @@ And here we have our final XML:
     </Python>
     <C cross-platform="yes" typing="static" />
 </Languages>
-{% endhighlight %}
+```
 
 Writing back the XML to a file is as easy as calling the method _write_ of the ElementTree
 that represents the document (_lang_ in our case).
