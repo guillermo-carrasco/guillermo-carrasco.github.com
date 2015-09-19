@@ -51,21 +51,18 @@ and create a MUNGE security key:
 4. In the server, copy the key from the vagrant home to the corresponding configuration
 directory and change the ownership to munge user:
 
-    `sudo cp ~/munge.key /etc/munge` <br />
-    `sudo chown munge /etc/munge/munge.key`
+    ```bash
+    sudo cp ~/munge.key /etc/munge
+    sudo chown munge /etc/munge/munge.key
+    ```
 
 5. Start MUNGE daemons in both machines:
 
     `sudo /etc/init.d/munge start`
 
 6. Finally, run SLURM services:
-    * On the controller:
-
-        `sudo slurmctld -D &`
-
-    * On the server:
-
-        `sudo /etc/init.d/slurm-llnl start`
+    * On the controller: `sudo slurmctld -D &`
+    * On the server: `sudo /etc/init.d/slurm-llnl start`
 
 And that’s all! You can now submit jobs to your mini SLURM cluster, try it out with
 this simple batch script:

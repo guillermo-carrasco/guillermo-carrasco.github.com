@@ -41,13 +41,15 @@ with patch is often referred to as applying the patch or simply patching the fil
 
 So there you have it. Actually, the output of the git diff command is all you need to create the patch, on the server repo:
 
-`(master)guillem@guillemmac:~/repo (master)$ git diff > my_changes.patch`
+```bash
+$> git diff > my_changes.patch
+```
 
 And on the local copy:
 
-```
-(master)guillem@remote-server:~$ cd repo
-(master)guillem@local-machine:~/repo (master)$ patch -p1 < my_changes.patch
+```bash
+$> cd repo
+$> patch -p1 < my_changes.patch
 ```
 
 This will apply the changes on every modified file to your local copy. Here you
