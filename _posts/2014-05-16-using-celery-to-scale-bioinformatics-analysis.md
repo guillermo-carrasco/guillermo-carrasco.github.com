@@ -23,7 +23,9 @@ Plainly speaking, and taking out complexities, what this means is that you will 
 queue of messages produced by someone that we will call **producers**. Then you will have someone,
 we will call them workers, reading this messages and doing some work. The following picture would represent this workflow:
 
+<center>
 ![Celery queue]({{ site.url }}/assets/images/using-celery-to-scale-bioinformatics-analysis/celery_queue.png)
+</center>
 
 This is the most basic Celery architecture you can have. Celery can work with several
 messaging queue systems, called **brokers**. We use [RabbitMQ][rabbit] for our production
