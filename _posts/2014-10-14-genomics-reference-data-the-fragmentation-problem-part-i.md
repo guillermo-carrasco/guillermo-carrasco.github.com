@@ -150,4 +150,4 @@ Hope you found this interesting!
 [ucsc]: https://genome.ucsc.edu/
 [ensembl]: http://www.ensembl.org/index.html
 [biomart]: http://biomart.org/
-[responses]: https://github.com/guillermo-carrasco/mussolblog/tree/master/Genomics_reference_data_the_fragmentation_problem
+[responses]: https://github.com/guillermo-carrasco/guillermo-carrasco.github.com/tree/master/assets/codes/genomics_reference
