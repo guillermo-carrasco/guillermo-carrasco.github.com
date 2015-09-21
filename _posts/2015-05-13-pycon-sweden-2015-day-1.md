@@ -11,7 +11,7 @@ Today was the first day of PyCon Sweden 2015. I’ve had the luck of attending f
 And this means that I’ve attended to 50% of all PyCon Sweden editions! (yes, its only its second year.. :-P ).
 Joking apart, even though its a young fork of the main PyCon conference, here in Sweden the Python community is very big and active, which makes this conference very interesting.
 
-A lot of nice talks today, a lot of them centred in data science and related topics, which was awesome,
+A lot of nice talks today, a lot of them centered in data science and related topics, which was awesome,
 as it is a very interesting field, and close to bioinformatics in some sense, which is what I work with.
 
 I’ve tried to take some notes on the talks I have attended, and here are my thoughts/summary about them, with some links of interest.
@@ -24,7 +24,7 @@ Ian’s talk has focused on data science in general. One of the points that he h
 is on the value of the data that a company owns _per se_. Doesn’t matter that your competitors know what machine
 learning techniques or what algorithms do you use, because what matters is what _your data_ tells about _your customers_.
 Your competitors are not gonna be able to replicate your results. The idea to keep in mind is then:
-Data == Business value. Said that, he also said that even though “data mining”, “data science” and
+Data == Business value. Said that, he also said that even though "data mining", "data science" and
 so on seems to be a trend, companies need to be careful, because you may just not need that.
 
 Ian has gone through lots of examples of Python projects to help with data science,
@@ -61,7 +61,7 @@ Belhorma GitHub [here][belhorama].
 
 The talk started with a description of what Spotify was using before using Docker. Basically, he was mentioning things like Debian packaging, heavy puppet configurations and [clusterSSH][clusterssh], used for deployment with all the risks it implies (it basically replicated the same command across multiple hosts using ssh. These solutions had a lot of problems: Configuration mismatches, rolling back was hard, network issues, human errors, etc.
 
-Now, they use intensively Docker. Docker basically creates a small linux container that its easily configurable. A linux container could be defined very _roughly_ as a process that “thinks” that is an isolated OS, having its own file system and everything it needs. A Docker build is configured using a dockerfile, that has commands to build the image, like dependencies and requirements. Each command is a layer and images can have parents.
+Now, they use intensively Docker. Docker basically creates a small linux container that its easily configurable. A linux container could be defined very _roughly_ as a process that "thinks" that is an isolated OS, having its own file system and everything it needs. A Docker build is configured using a dockerfile, that has commands to build the image, like dependencies and requirements. Each command is a layer and images can have parents.
 
 The presentation finished with a nice demo of how a docker file and docker image looks like and how is it run. Unfortunately I can’t find his slides. Maybe some kind reader has? Please leave a comment!
 
@@ -69,7 +69,7 @@ The presentation finished with a nice demo of how a docker file and docker image
 
 Roelof GitHub [here][roelof].
 
-Very genuine presentation, where Roleof has started asking us if we were a “cat person” or a “dog person”. The talk has been driven by this question, describing how he build a classifier for taking pictures of cats and dogs to distinguish them.
+Very genuine presentation, where Roleof has started asking us if we were a "cat person" or a "dog person". The talk has been driven by this question, describing how he build a classifier for taking pictures of cats and dogs to distinguish them.
 
 Some of the tools or packages that he mentioned or used are scikit-learn, [caffe][caffe], [theano][theano] and ipython notebook. Caffe seems to be a very nice deep learning library, where you can find **pre-trained** models already available.
 
@@ -93,7 +93,7 @@ Some other topics he covered are: Work tokenization, stemming (finding the root 
 
 Very interesting how he described the process of converting words into vectors on an n-dimensional space, so that then you can do linear algebra on those vectors to get what you want. For example comparing the vectorial space of two different languages, you can translate from one to another only by looking at the position of a word in the original language space and looking at the same position in the space of the other language. (that may be a bit confusing…)
 
-Ends up graphing his google searches and with a funny joke: The words “KTH” and “lazy” get really close in the space.
+Ends up graphing his google searches and with a funny joke: The words "KTH" and "lazy" get really close in the space.
 
 6. Python: How a Notebook is Changing Science – <u>Juan Luis Cano</u>
 
