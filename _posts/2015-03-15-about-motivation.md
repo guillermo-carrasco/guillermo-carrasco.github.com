@@ -10,11 +10,11 @@ tags:
 This blog post is a bit different than usual, in the sense that is not technical at all,
 but just my reflexions about how to get motivated, and my thoughts about why I think our (my?) motivation drops down from time to time.
 
-The idea of this blog post comes from a small “motivational crisis” I suffered right after my Christmas vacations.
+The idea of this blog post comes from a small "motivational crisis" I suffered right after my Christmas vacations.
 
 <img src="{{ site.url }}/assets/images/motivation/streak.png" align="left">
 
-“A picture speaks a thousand words” – they say, so just take a look to [my GitHub][github] contribution chart to see what I mean with “motivational crisis”.
+"A picture speaks a thousand words" – they say, so just take a look to [my GitHub][github] contribution chart to see what I mean with "motivational crisis".
 
 From mid December to mid February, I entered some kind of vicious cycle of demotivation:
 I was unmotivated at work, so I was less productive, which made me feel more unmotivated,
@@ -30,7 +30,7 @@ to each individual, but there are mainly three factors that I found that really 
 
 **1. Repetitive, mechanical or non-challenging tasks**
 
-There are times when on “has to do what he/she is told to”, or times where something
+There are times when on "has to do what he/she is told to", or times where something
 just needs to get done, and it is something that you don’t get anything from. These
 situations really desperate me, but this is something we really have to deal with as grown up people ;-).
 If you’ve read the subtitle of my blog, you will understand this a little bit more. I **always** try to automate
@@ -49,9 +49,9 @@ I get really frustrated. Frustration and motivation are not good friends…
 
 Procrastination is a real problem among people that work 100% of the time in front of a computer.
 In developer specially I would say. Do you recognise this situation? You’re working on something
-and you start Google-ing for some issue you’re having — “Hmm this conversation is interesting,
+and you start Google-ing for some issue you’re having — "Hmm this conversation is interesting,
 and that framework/library/tool they’re talking about… I’m going to read about it, just to grasp
-the general idea” and… boom! Suddenly the day has gone and you’ve done anything but reading.
+the general idea" and… boom! Suddenly the day has gone and you’ve done anything but reading.
 
 When that happens you feel bad because you’ve not been productive. Which makes you loose motivation.
 
@@ -61,10 +61,10 @@ However you get unmotivated, once you get there it may be difficult to get out s
 
 ## If you have to do it, do it as soon as possible
 
-Delaying “must” tasks is not a good idea. If you have to do something that you don’t like,
+Delaying "must" tasks is not a good idea. If you have to do something that you don’t like,
 the worst thing you can do is keep down-prioritizing it in your TODO list. All the time
 that these unwanted tasks are in your todo list, it is time that you have that voice in the back
-of your head telling you — “you should be doing that task… you will have to at some point”.
+of your head telling you — "you should be doing that task… you will have to at some point".
 
 It is difficult, but be strong, sit down and work on that task as soon as possible. When you
 finish it you will have double satisfaction: Getting something done, and getting rid of something you don’t like.
@@ -82,7 +82,7 @@ Use the waiting time to work on something that motivates you.
 ## Procrastination is not always a bad thing
 
 On her book A [Mind For Numbers, Barbara Oakley][numbers] talks a lot about motivation and procrastination.
-The main idea about procrastination is that we do that because it gives us an immediate satisfaction feeling or “reward” for our brain.
+The main idea about procrastination is that we do that because it gives us an immediate satisfaction feeling or "reward" for our brain.
 When you procrastinate, your brain is satisfied because you are moving your thoughts to something more pleasant.
 However, in long term, because you know that you should be doing something else, you feel bad about it. In order
 to stop feeling bad, you move again your thoughts to another more pleasant matter, and so on. This is why when one procrastinates,
@@ -92,14 +92,14 @@ To avoid this, what I do is try to use this immediate satisfaction in my favour.
 I try to follow a routine where I work focused for a period of time and, when this time passes,
 I give myself a reward: a coffee, some reading, check facebook, a walk, etc. If you’re not disciplined
 enough to control that routine by yourself, try using something like the [pomodoro technique][pomodoro] for some time.
-The important part is to manage this “work/something done implies reward” flow. It is difficult at the beginning, but it pays off.
+The important part is to manage this "work/something done implies reward" flow. It is difficult at the beginning, but it pays off.
 
-## “Gamify” your work
+## "Gamify" your work
 
 Whenever possible, try to make it fun! One thing that I find fun and motivating right now,
 for example, is the GitHub longest streak. I am about to reach my longest contributions streak and,
 even if **I know** that it is not important at all how continued you contribute, I find it challenging
-and motivating to do so. This also pushes me to work on personal projects, which is good! Try to “compete”
+and motivating to do so. This also pushes me to work on personal projects, which is good! Try to "compete"
 with friends, get inspired by what other developers you admire are doing. Ultimately, have fun!
 
 ## Know yourself better
