@@ -48,11 +48,6 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "mussol"
 ;
-
-// Justify text in post contents
-.post-content {
-    text-align: justify;
-    text-justify: inter-word;
-}
