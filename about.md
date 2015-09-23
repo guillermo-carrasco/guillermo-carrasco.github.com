@@ -18,6 +18,6 @@ I’m very very lucky to work in Science For Life Laboratory, as there I deal wi
 Now, why Mussol? Well… really, I don’t know. My friend [Roman Valls](http://blogs.nopcode.org/brainstorm/)
 started calling me like that (it means owl in catalan), and I just kind of like it.
 
-Feel free to follow me on [twitter](https://twitter.com/guillemch) or check my [linkedin](http://linkd.in/XeFUSB) profile! (no, I’ll not share my facebook account).
+Feel free to follow me on [twitter](https://twitter.com/guillemch) or check my [linkedin](https://www.linkedin.com/in/guillermocarrasco) profile! (no, I’ll not share my facebook account).
 
 Hope you enjoy reading!

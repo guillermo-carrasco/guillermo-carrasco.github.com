@@ -7,7 +7,8 @@ task :test do
 			"#"
         ],
         :url_ignore => [
-            "\Ahttps\?://t.co"
+            "\Ahttps://t.co",
+            "\Ahttp://t.co",
         ]
         }).run
 end
