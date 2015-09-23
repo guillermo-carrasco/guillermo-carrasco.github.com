@@ -31,9 +31,7 @@ data, these tools cannot always help.
 Last July I was in Boston to attend the [BOSC conference][bosc] and previous hackathon.
 And I thought it would be a good opportunity to ask around what people was doing
 to solve this problem in their research groups. I set up a survey that participants
-would fill in. I also tweeted the survey so that other people could fill it. [This][survey]
-is the survey, it is now unlinked from the responses sheet, so basically it is
-not accepting new entries.
+would fill in. I also tweeted the survey so that other people could fill it.
 
 In the following lines, I’ll try to summarise and make some sense from the responses
 I obtained. While I was writing, I realised that I have a lot to say, so I decided
@@ -44,7 +42,7 @@ I got a total of 42 responses from different organisations, including Harvard
 Medicsurvey_participational School, Princeton University or MIT among other research groups.
 The survey was open for one week (2014-07-07 to 2014-07-12), and I got most of the participation the first day.
 
-<img src="{{ site.url }}/assets/images/genomics_reference/survey_participation.png" align="right">
+<img src="{{ site.url }}/assets/images/genomics_reference/survey_participation.png" alt="Survey participation" align="right">
 
 A fair amount of research groups, I think. I want to thank everyone that participated in the survey.
 
@@ -59,7 +57,7 @@ My intention with the questions in the survey were to determine:
 
 _<u>Question 1</u>: Do you work only with one species, or several species’ genomes?_
 
-<img src="{{ site.url }}/assets/images/genomics_reference/single_or_multiple_species1.png" align="right">
+<img src="{{ site.url }}/assets/images/genomics_reference/single_or_multiple_species1.png" alt="Single or multiple species" align="right">
 
 I considered this question important because It is not the same if you have to sync
 data from only one specie than if you have to get data from several species.
@@ -145,7 +143,6 @@ Hope you found this interesting!
 [Cloudbiolinux]: https://github.com/chapmanb/cloudbiolinux
 [cosmid]: https://github.com/robinandeer/cosmid
 [bosc]: http://www.open-bio.org/wiki/BOSC_2014
-[survey]: https://docs.google.com/forms/d/154UrFArCNp9V57JLjk6tvByfi2acpOfXlfj73JsAPbg/viewform?edit_requested=true
 [bed_detail]: http://genome.ucsc.edu/FAQ/FAQformat.html#format1.7
 [ucsc]: https://genome.ucsc.edu/
 [ensembl]: http://www.ensembl.org/index.html

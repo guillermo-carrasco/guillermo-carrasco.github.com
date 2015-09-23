@@ -116,4 +116,4 @@ Hope you have fun, if you did, share!
 
 [api]: https://dev.twitter.com/overview/api
 [code]: https://github.com/guillermo-carrasco/mussolblog/tree/master/mining_twitter_for_my_twitteraniversary
-[nviewer]: http://nbviewer.ipython.org/github/guillermo-carrasco/mussolblog/blob/master/mining_twitter_for_my_twitteraniversary/Mining_twittew_for_my_twitteraniversary.ipynb
+[nviewer]: https://github.com/guillermo-carrasco/mussolblog/blob/master/mining_twitter_for_my_twitteraniversary/Mining_twittew_for_my_twitteraniversary.ipynb

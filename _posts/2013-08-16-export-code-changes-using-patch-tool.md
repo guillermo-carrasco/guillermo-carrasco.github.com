@@ -52,8 +52,8 @@ $> cd repo
 $> patch -p1 < my_changes.patch
 ```
 
-This will apply the changes on every modified file to your local copy. Here you
+This will apply the changes on every modified file to your local copy. [Here][http://jungels.net/articles/diff-patch-ten-minutes.html] you
 have a great blog post about how to work with diff and patch.
 
 As a side note, patch is the system used to propose fixes to, for example,
-[Ubuntu software packages](http://developer.ubuntu.com/packaging/html/patches-to-packages.html).
+[Ubuntu software packages](http://packaging.ubuntu.com/html/patches-to-packages.html).

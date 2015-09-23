@@ -42,7 +42,7 @@ but I think is mature enough to start using it. Collaborations are welcome!
 [codefest2013]: http://www.open-bio.org/wiki/Codefest_2013
 [ich]: https://github.com/roryk/ipython-cluster-helper
 [pp]: http://mussolblog.wordpress.com/2013/07/17/setting-up-a-testing-slurm-cluster/
-[travis]: www.travis-ci.org
+[travis]: https://travis-ci.org/
 [bcbb-travis]: https://travis-ci.org/guillermo-carrasco/bcbb
 [pytravis]: https://github.com/guillermo-carrasco/pytravis
 [example]: http://blogs.nopcode.org/brainstorm/2013/03/04/automated-python-education-via-unit-testing-and-travis-ci/

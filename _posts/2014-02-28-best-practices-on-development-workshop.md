@@ -18,7 +18,7 @@ prioritizing only obtaining the desired results. This blog post from Chris Parr
 describes [this][post] situation quite well.
 
 IMHO we are doing a good job in the production team at SciLife, all our code is
-publicly available on GitHub, we have **some** of our software integrated in [Travis-CI](www.travis-ci.org),
+publicly available on GitHub, we have **some** of our software integrated in [Travis-CI](https://travis-ci.org/),
 and we have a good collaborative workflow (Trello, Pull Requests, GH Issues, etc.).
 For this reason, I decided that it would be good to share these good practices and
 experience with the rest of the scientists at SciLife, as well as everyone who wanted to attend.

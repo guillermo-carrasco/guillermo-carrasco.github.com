@@ -84,6 +84,6 @@ just to show a practical example of how Celery can be used.
 [brokers]: http://docs.celeryproject.org/en/latest/getting-started/first-steps-with-celery.html#choosing-a-broker
 [bcbio]: https://github.com/SciLifeLab/bcbb/tree/master/nextgen
 [brad]: http://bcb.io
-[demux]: http://www.pristionchus.org/wiki/index.php/Illumina_sequencing_raw_data_analysis#Demultiplexing
+[demux]: http://www.pristionchus.org/mediawiki/index.php/Illumina_sequencing_raw_data_analysis#Demultiplexing
 [tasks]: https://github.com/SciLifeLab/bcbb/blob/master/nextgen/bcbio/distributed/tasks.py
 [presentation]: http://www.slideshare.net/nicolasgrasset/scaling-up-task-processing-with-celery

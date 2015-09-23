@@ -73,7 +73,7 @@ Hope you enjoyed reading! I feel a CWL-specific post coming up soon ;-)
 [docker]: http://docker.com/
 [boot2docker]: http://boot2docker.io/
 [pr]: https://github.com/common-workflow-language/common-workflow-language/pull/81
-[robin]: www.robinandeer.com
+[robin]: http://www.robinandeer.com/
 [roman]: http://blogs.nopcode.org/brainstorm/
 [sinisa]: https://github.com/sinisa88
 [peter]: https://github.com/tetron
