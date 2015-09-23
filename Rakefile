@@ -6,10 +6,11 @@ task :test do
 		:href_ignore => [
 			"#",
             "\Ahttp://t.co",
-            # Linkedin is bloking travis-ci
-            "*linkedin*"
         ],
-        # Ignore Survey URL
-        :url_ignore => ["https://t.co/tTz4qaCSwQ"]
+        # Ignore Survey and linkedin URLs
+        :url_ignore => [
+            "https://t.co/tTz4qaCSwQ",
+            "https://www.linkedin.com/in/guillermocarrasco"
+        ]
     }).run
 end
