@@ -4,11 +4,12 @@ task :test do
   sh "bundle exec jekyll build"
   HTML::Proofer.new("./_site", {
 		:href_ignore => [
-			"#"
-        ],
-        :url_ignore => [
-            "\Ahttps://t.co",
+			"#",
             "\Ahttp://t.co",
-        ]
-        }).run
+            # Linkedin is bloking travis-ci
+            "*linkedin*"
+        ],
+        # Ignore Survey URL
+        :url_ignore => ["https://t.co/tTz4qaCSwQ"]
+    }).run
 end
