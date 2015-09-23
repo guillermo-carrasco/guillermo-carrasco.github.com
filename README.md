@@ -1,11 +1,16 @@
 # Mussol blog
+
+[![Build Status](https://travis-ci.org/guillermo-carrasco/guillermo-carrasco.github.com.svg?branch=master)](https://travis-ci.org/guillermo-carrasco/guillermo-carrasco.github.com)
+
 This repository contains the whole source code for my blog, including images,
 code and more.
+
+Go to www.mussol.org to visit it!
 
 To run it locally, you'll need to:
 
 1. Clone the repository: `git clone https://github.com/guillermo-carrasco/guillermo-carrasco.github.com.git`
-2. [Install Jekyll][install-jekyll]
+2. Install dependencies with `bundle exec jekyll build`
 3. Run the project using the development configuration (just for the base url to work:)
 `jekyll serve --config _config.yml,_config_devel.yml --drafts`
 
@@ -22,5 +27,3 @@ named `2015-10-16-my-awesome-post.md`, the final url for the blog post will be
 ### Writing drafts
 Any blog post in the `_drafts` directory will not be published in the built web site,
 so if desired, you can work on your blog posts there
-
-[install-jekyll]: https://help.github.com/articles/using-jekyll-with-pages/
