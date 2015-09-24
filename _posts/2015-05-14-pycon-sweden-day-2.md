@@ -14,6 +14,8 @@ After an excellent set of talks the first day, the expectations were high! I hav
 given that I was giving a talk today together with Robin Andeer, I could not be as focused as yesterday.
 Here is my best attempt on summarizing the talks I found more interesting.
 
+<!--more-->
+
 ### 1. Keynote – <u>Kate Heddleston</u>
 
 More about Kate [here][kate].

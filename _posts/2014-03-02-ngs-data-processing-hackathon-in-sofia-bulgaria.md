@@ -14,6 +14,8 @@ which computer programmers and others involved in software development, includin
 graphic designers, interface designers and project managers, collaborate intensively
 on software projects – Wikipedia
 
+<!--more-->
+
 On the past two days, a hackathon in Next Generation Data Processing has been
 celebrated in Sofia, Bulgaria. The aim of this hackathon was to put together NGS Data
 Processing projects developers and try to give a push to that projects in two days

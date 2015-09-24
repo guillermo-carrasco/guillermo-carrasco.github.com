@@ -19,6 +19,8 @@ In order to test our connector, we could run our tests on UPPMAX, but this impli
 our tests in the queue, which usually takes time… we’re in a two days hackathon,
 so we’ve to speed up things as much as we can!
 
+<!--more-->
+
 Taking advantage of the situation I would like to explain how to create a mini-local
 cluster in order to test things things that require a cluster. To set up a local testing
 cluster, the only thing you need is Vagrant installed in your machine. I’ve tested

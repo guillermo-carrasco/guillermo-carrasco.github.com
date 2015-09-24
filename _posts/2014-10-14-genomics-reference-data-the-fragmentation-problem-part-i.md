@@ -16,6 +16,8 @@ any kind of bioinformatics analysis, you need to have at least some of the follo
 * Annotation data (snpEff, VEP, Annovar)
 * Genetic Variation data (dbSNP, etc)
 
+<!--more-->
+
 Maybe even more, depending on the type of analysis you’re doing. The fact is that
 most of these data is dispersed around several servers and institutions. Not only that,
 this data is stored without any particular standard on the different sources you can find it.

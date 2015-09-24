@@ -13,6 +13,8 @@ This blog post is the continuation of "[Genomics reference data: The fragmentati
 
 In part I, we saw that the majority of the research groups work with several species and they need to download lots of reference data. We also saw that the sources for this data are diverse and unstructured. With the remaining questions I try to know how people is fetching and structuring reference data.
 
+<!--more-->
+
 Questions 4, 5 and 6: How do you fetch your reference data? How do you structure your reference data? How do you keep your reference data up to date?
 
 I decided to group these questions because they’re so closely related: You fetch your reference data and store it somehow. Later, from every now and then you have to update the reference data. If you fetch data from several places and how you get it (the structure) is different for every place, you’ll probably end up creating your on structure.

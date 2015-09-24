@@ -16,6 +16,8 @@ as it is a very interesting field, and close to bioinformatics in some sense, wh
 
 I’ve tried to take some notes on the talks I have attended, and here are my thoughts/summary about them, with some links of interest.
 
+<!--more-->
+
 # 1. Keynote – <u>Ian Ozvald</u>
 
 Read more about Ian [here][ian].

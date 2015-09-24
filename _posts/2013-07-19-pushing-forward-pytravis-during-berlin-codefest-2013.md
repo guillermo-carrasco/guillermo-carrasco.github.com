@@ -14,6 +14,8 @@ Today has been the second and last day of the [Codefest 2013][codefest2013]. Yes
 working on an extension for [ipython-cluster-helper][ich], as I explained in my [previous post][pp].
 Today, I’ve decided to push forward a small personal project that I started a few months ago.
 
+<!--more-->
+
 Was around January when we decided in Science For Life Laboratory to integrate our development
 in the Continuous Integration system [Travis-CI][travis]. Travis-CI is a freely hosted CI
 system perfectly integrated with GitHub and with support for lots of programming languages.

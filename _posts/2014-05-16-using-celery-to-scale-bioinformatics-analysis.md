@@ -17,6 +17,8 @@ tags:
 Yes I know, there are tons of tutorials on how to run Celery out there, but I just
 wanted to showcase how we use it in our production environment, this is a _real life_ example.
 
+<!--more-->
+
 # What is celery? How does it work?
 Celery is an asynchronous task queue/job queue based on distributed messaging passing.
 Plainly speaking, and taking out complexities, what this means is that you will have a

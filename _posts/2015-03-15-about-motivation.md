@@ -16,6 +16,8 @@ The idea of this blog post comes from a small "motivational crisis" I suffered r
 
 "A picture speaks a thousand words" – they say, so just take a look to [my GitHub][github] contribution chart to see what I mean with "motivational crisis".
 
+<!--more-->
+
 From mid December to mid February, I entered some kind of vicious cycle of demotivation:
 I was unmotivated at work, so I was less productive, which made me feel more unmotivated,
 which made me be less productive, which… after some time, I managed to leave this circle and

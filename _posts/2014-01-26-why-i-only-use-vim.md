@@ -14,6 +14,8 @@ including my years in the university – and in all these years I’ve tried **a
 
 It has been a while though since I only use VIM for development. And here are my top 5 "why" reasons:
 
+<!--more-->
+
 1. **Multiplatform**: As I said, I’ve tried a lot of editors during this years,
 and one of the reasons for that is the platform dependence of some of them.
 Depending on the project or job, I work on different platforms. Even if it does

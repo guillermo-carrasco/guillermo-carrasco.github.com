@@ -17,6 +17,8 @@ I’m comparing the performance (just timing by now) against the most widely use
 To do the tests I’m using different cluster configurations, so I can see when it is worth the use of
 Hadoop in terms of types of nodes, amount of data, etc.
 
+<!--more-->
+
 For one of these tests, which cluster configuration was just 2 (quite powerful) datanodes,
 it has happened that BWA, using all 24 CPUs of the node, has been way faster than Seal
 using both datanodes (4h vs 42 min aprox). Ok, I did expect that BWA performance would

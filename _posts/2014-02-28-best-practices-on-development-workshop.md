@@ -17,6 +17,8 @@ I have seen quite a big tendency on not giving the deserved importance to softwa
 prioritizing only obtaining the desired results. This blog post from Chris Parr
 describes [this][post] situation quite well.
 
+<!--more-->
+
 IMHO we are doing a good job in the production team at SciLife, all our code is
 publicly available on GitHub, we have **some** of our software integrated in [Travis-CI](https://travis-ci.org/),
 and we have a good collaborative workflow (Trello, Pull Requests, GH Issues, etc.).

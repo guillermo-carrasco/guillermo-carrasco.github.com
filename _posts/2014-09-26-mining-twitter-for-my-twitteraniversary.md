@@ -22,6 +22,8 @@ So apparently today it has been three years since I created my twitter account, 
 However I feel like it was just a year ago that I started using it seriously… maybe 2?
 Was I using it before? I definitely think I had a "disconnection" period from twitter at some point…
 
+<!--more-->
+
 I was asking myself these questions on the bus today, so I decided that it could be a
 fun exercise to actually answer these questions with facts. How? Well, fortunately
 you can pick up **all** the information you want from twitter using their complete [API][api],

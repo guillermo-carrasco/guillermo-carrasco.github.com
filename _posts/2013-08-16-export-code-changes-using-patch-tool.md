@@ -12,8 +12,10 @@ tags:
 First of all, we all agree that Git, SVN, or any other Control Version System (CVS)
 is the way of developing code, right? Far away are those days where developers mailed
 zipped codes with unambiguous version numbers (everyone can see that software-v1-0.0.2.3.43
-    is an important update over software-v1-0.0.2.3.44, right?). We also know that it is
-    better to develop locally, and, after properly testing, push to production and deploy.
+is an important update over software-v1-0.0.2.3.44, right?). We also know that it is
+better to develop locally, and, after properly testing, push to production and deploy.
+
+<!--more-->
 
 However, there are still software that is not under CVS, or maybe you want to do a small
 change and you don’t want to clone an entire repository, make the corresponding changes

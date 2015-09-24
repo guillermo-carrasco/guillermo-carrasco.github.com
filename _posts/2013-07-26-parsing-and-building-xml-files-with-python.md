@@ -14,6 +14,8 @@ However, there is still a lot of software and APIs that use XML format. Actually
 our new [LIMS][LIMS] uses XML to present API queries results, as well as some of the software
 that we use to analyze and manipulate sequencing data.
 
+<!--more-->
+
 When I had to deal with XML for the first time with Python I had a lot of troubles
 parsing and building files. The documentation is not clear at all, and there seems
 to be tens of ways for doing the same thing… I will limit myself to explain the **basic**

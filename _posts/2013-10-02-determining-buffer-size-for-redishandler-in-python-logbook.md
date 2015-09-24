@@ -17,6 +17,8 @@ Basically, it collects your log events and store them into Elasticsearch. Later 
 with the provided web interface called Kibana, you can search within all your
 logs in a really cool way.
 
+<!--more-->
+
 I thought that this would be very useful for us and therefore I started to do some
 testing. The tests worked so smoothly that we have decided to put Logstash into production,
 and here comes the story. The figure below represents the recommended Lostash stack:
