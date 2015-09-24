@@ -2,7 +2,7 @@
 # Basic settings.
 #
 baseurl: ""
-url: "mussol.org"
+url: "http://mussol.org/"
 title: Mussol's blog
 description: In automation we trust
 avatar: /assets/images/avatar.png
