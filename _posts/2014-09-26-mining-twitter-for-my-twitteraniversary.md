@@ -20,7 +20,7 @@ tags:
 
 So apparently today it has been three years since I created my twitter account, yay!
 However I feel like it was just a year ago that I started using it seriously… maybe 2?
-Was I using it before? I definitely think I had a "disconnection” period from twitter at some point…
+Was I using it before? I definitely think I had a "disconnection" period from twitter at some point…
 
 I was asking myself these questions on the bus today, so I decided that it could be a
 fun exercise to actually answer these questions with facts. How? Well, fortunately
@@ -82,7 +82,7 @@ tweets… how many are actually mine, and not retweeted? Twitter API documentati
 
 > Retweets can be distinguished from typical Tweets by the existence of a retweeted_status attribute
 
-So if we group the tweets by the field "retweeted_status” it turns out that only
+So if we group the tweets by the field "retweeted_status" it turns out that only
 173 tweets are mine! Thats slightly less than 50% of them. I think it’s ok, a good
 balance between speaking and listening.
 

@@ -2,7 +2,7 @@
 # Basic settings.
 #
 baseurl: ""
-url: "http://guillermo-carrasco.github.io/"
+url: "http://guillermo-carrasco.github.io"
 title: Mussol's blog
 description: In automation we trust
 avatar: /assets/images/avatar.png

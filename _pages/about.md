@@ -11,7 +11,7 @@ I’m currently working in Sweden as a Systems Developer in Science For Life Lab
 
 I’m passionate about new technologies, programming languages and every computer-related geeky stuff in general. Lately,
 I’ve been very interested in the field of [bioinformatics](http://en.wikipedia.org/wiki/Bioinformatics). It is incredible the opportunities that a computer scientist
-have there to give free rain to the imagination and creativity. A lot of things needs to be done in the “bioinformatitian” world:
+have there to give free rain to the imagination and creativity. A lot of things needs to be done in the “bioinformatitian" world:
 Enormous amounts of data to manage and analyse, huge HPCs to administrate, complex parallel systems, and a large etc.
 I’m very very lucky to work in Science For Life Laboratory, as there I deal with real-world problems like these.
 
