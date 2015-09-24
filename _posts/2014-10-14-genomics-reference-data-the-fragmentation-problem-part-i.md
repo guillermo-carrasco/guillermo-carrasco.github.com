@@ -39,7 +39,7 @@ In the following lines, I’ll try to summarise and make some sense from the res
 I obtained. While I was writing, I realised that I have a lot to say, so I decided
 to write it in (two?) parts. This is part I, Part II will come soon :-)
 
-# Participation
+## Participation
 I got a total of 42 responses from different organisations, including Harvard
 Medicsurvey_participational School, Princeton University or MIT among other research groups.
 The survey was open for one week (2014-07-07 to 2014-07-12), and I got most of the participation the first day.
@@ -48,7 +48,7 @@ The survey was open for one week (2014-07-07 to 2014-07-12), and I got most of t
 
 A fair amount of research groups, I think. I want to thank everyone that participated in the survey.
 
-# The questions
+## The questions
 I must say that the format of the survey made it a bit complicated to parse the
 results and extract information, I guess that’s something that one learns with experience as well.
 My intention with the questions in the survey were to determine:
@@ -112,7 +112,7 @@ I would like to see more common protocols being used.
 
 In this survey, up to 17 reference data sources were listed… it is clear that there is a need for unification.
 
-# Conclusions (part I)
+## Conclusions (part I)
 First of all, please feel free to explore the data yourself, you can find the parsed
 responses (without personal data) [here][responses], together with the Ipython notebook I’m using
 to analyze the data.

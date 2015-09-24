@@ -16,7 +16,6 @@ The idea of this blog post comes from a small "motivational crisis" I suffered r
 
 "A picture speaks a thousand words" – they say, so just take a look to [my GitHub][github] contribution chart to see what I mean with "motivational crisis".
 
-<!--more-->
 
 From mid December to mid February, I entered some kind of vicious cycle of demotivation:
 I was unmotivated at work, so I was less productive, which made me feel more unmotivated,
@@ -26,7 +25,9 @@ to me, and I know that this is a common issue, [specially among programmers][thr
 about **the cause** of these demotivation peaks. This is just a compilation of my thoughts and some real science as well.
 Brace yourselves.
 
-# Why do I get unmotivated?
+<!--more-->
+
+## Why do I get unmotivated?
 There are of course multiple reasons for this, and it is very personal and particular
 to each individual, but there are mainly three factors that I found that really affect my motivation at a given time:
 
@@ -57,11 +58,11 @@ the general idea" and… boom! Suddenly the day has gone and you’ve done anyth
 
 When that happens you feel bad because you’ve not been productive. Which makes you loose motivation.
 
-# How to get out from that demotivation vicious circle?
+## How to get out from that demotivation vicious circle?
 
 However you get unmotivated, once you get there it may be difficult to get out sometimes. Here are some tips that help me keep motivated.
 
-## If you have to do it, do it as soon as possible
+### If you have to do it, do it as soon as possible
 
 Delaying "must" tasks is not a good idea. If you have to do something that you don’t like,
 the worst thing you can do is keep down-prioritizing it in your TODO list. All the time
@@ -72,7 +73,7 @@ It is difficult, but be strong, sit down and work on that task as soon as possib
 finish it you will have double satisfaction: Getting something done, and getting rid of something you don’t like.
 Think about that: the sooner you finish that task, the sooner you will be able to work on something you really like.
 
-## If you can wait, they can wait
+### If you can wait, they can wait
 
 This is regarding the second cause of demotivation. If you **have** to wait for someone
 in order to be able to continue your work, just do it. The key is not to obsess about that.
@@ -81,7 +82,7 @@ For example, send a reminder or answer related mails only at the end/beginning o
 What you have to avoid is feeling bad about it, if there is nothing you can do, that’s it, don’t worry.
 Use the waiting time to work on something that motivates you.
 
-## Procrastination is not always a bad thing
+### Procrastination is not always a bad thing
 
 On her book A [Mind For Numbers, Barbara Oakley][numbers] talks a lot about motivation and procrastination.
 The main idea about procrastination is that we do that because it gives us an immediate satisfaction feeling or "reward" for our brain.
@@ -96,7 +97,7 @@ I give myself a reward: a coffee, some reading, check facebook, a walk, etc. If 
 enough to control that routine by yourself, try using something like the [pomodoro technique][pomodoro] for some time.
 The important part is to manage this "work/something done implies reward" flow. It is difficult at the beginning, but it pays off.
 
-## "Gamify" your work
+### "Gamify" your work
 
 Whenever possible, try to make it fun! One thing that I find fun and motivating right now,
 for example, is the GitHub longest streak. I am about to reach my longest contributions streak and,
@@ -104,7 +105,7 @@ even if **I know** that it is not important at all how continued you contribute,
 and motivating to do so. This also pushes me to work on personal projects, which is good! Try to "compete"
 with friends, get inspired by what other developers you admire are doing. Ultimately, have fun!
 
-## Know yourself better
+### Know yourself better
 
 Finally, but by no means less important: Know yourself better. This may sound poetic,
 but knowing yourself will help you to understand why you are unmotivated, and more importantly, how to recharge your batteries.

@@ -18,7 +18,7 @@ I’ve tried to take some notes on the talks I have attended, and here are my th
 
 <!--more-->
 
-# 1. Keynote – <u>Ian Ozvald</u>
+## 1. Keynote – <u>Ian Ozvald</u>
 
 Read more about Ian [here][ian].
 
@@ -47,7 +47,7 @@ One last remark of the talk has been a guide for your first data science project
     * **Communicate results**
         * ipython notebook
 
-# 2. Analyzing data with Pandas – <u>Robin Lindeborg</u>
+## 2. Analyzing data with Pandas – <u>Robin Lindeborg</u>
 
 Robin’s GitHub [here][robin].
 
@@ -57,7 +57,7 @@ The topics covered have been very wide, including: data filtering, arithmetics o
 
 At the end of the talk, he has conducted a life demo using data that corresponds to the military expenses from both USA and Sweden, from 1988 to 2015. I’ll let you guess who has been spending more money on armament ;-). Nice demo, nothing failing, which is quite surprising!
 
-# 3. Docker and Python at Spotify – <u>Belhorama Bendebiche</u>
+## 3. Docker and Python at Spotify – <u>Belhorama Bendebiche</u>
 
 Belhorma GitHub [here][belhorama].
 
@@ -67,7 +67,7 @@ Now, they use intensively Docker. Docker basically creates a small linux contain
 
 The presentation finished with a nice demo of how a docker file and docker image looks like and how is it run. Unfortunately I can’t find his slides. Maybe some kind reader has? Please leave a comment!
 
-# 4. Deep learning and deep data science – <u>Roelof Pieters</u>
+## 4. Deep learning and deep data science – <u>Roelof Pieters</u>
 
 Roelof GitHub [here][roelof].
 
@@ -81,7 +81,7 @@ The talk finished with some examples of deep learning used for audio and image r
 
 He will publish the slides soon, I hope that in GitHub, otherwise I’ll update this blog post if I get to know where they’re published.
 
-# 5. Hacking Human Language – <u>Hendrik Heurer</u>
+## 5. Hacking Human Language – <u>Hendrik Heurer</u>
 
 Slides here, very nice ones!
 
@@ -107,7 +107,7 @@ IPython notebook is proven to be a very effective tool for that, giving the poss
 
 Several use case examples were shown in the presentation, all of them illustrating different aspects of iPython Notebooks, that from now one will be named [Jupyter][jupyter], which is a name made from **Ju**lia + **Py**thon + **R**, which are the platforms/languages that build the project. The big new thing about Jupyter is that it pretends to be language agnostic, allowing you to run even something called iMatlab (?!).
 
-# Conclusions after the first day
+## Conclusions after the first day
 
 Very nice presentations all of them. I am very pleased of having attended and I am looking forward for tomorrow! A bit nervous for the talk I am giving, but really willing to do it!
 

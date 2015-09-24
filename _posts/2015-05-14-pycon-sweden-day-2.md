@@ -16,7 +16,7 @@ Here is my best attempt on summarizing the talks I found more interesting.
 
 <!--more-->
 
-### 1. Keynote – <u>Kate Heddleston</u>
+## 1. Keynote – <u>Kate Heddleston</u>
 
 More about Kate [here][kate].
 
@@ -30,7 +30,7 @@ The talk has gone around two "study cases": Twitter harassment and Snapchat porn
 
 **Very** nice discussion at the end of the talk, as every time that morality or ethics take place on a conversation (believe me, I’m a vegan…).
 
-# 2. Why Django sucks – <u>Emil Stenstrom</u>
+## 2. Why Django sucks – <u>Emil Stenstrom</u>
 
 More about Emil [here][emil].
 
@@ -48,7 +48,7 @@ The talk focused on three main problems that Emil finds in Django.
 
 3. Template components: In order to add an external widget to your application, for example, you need to modify lots of bits of code: Add the JS, add the CSS, and link to those (and place correctly) wherever you have to use them. It would be more convenient and cleaner that adding components was easier and more independent.
 
-# 3. How Python Drives the Analysis of Billions of DNA Sequences – </u>Guillermo Carrasco and Robin Andeer</u>
+## 3. How Python Drives the Analysis of Billions of DNA Sequences – </u>Guillermo Carrasco and Robin Andeer</u>
 More about me… nah, you’re already reading my blog. More about Robin [here][robin].
 
 So that was our talk! I’ll let other judge the quality of the talk and I'll say only two things. One is that you can find _everything_ about our talk in [this repository][repo], from the slides to the transcript of what we said (maybe not 100% updated, but informative enough).
@@ -58,7 +58,7 @@ Second is about the feeling of the talk, which was great! Despite the jitters, t
 What to say… thank you very much :) It was great talking to everyone, and of course I am always open to discussions! Just leave a comment or send me a mail.
 
 
-# 4.How to build a web application with Flask and Neo4j – <u>Nicole White</u>
+## 4.How to build a web application with Flask and Neo4j – <u>Nicole White</u>
 
 More about Nicole [here][nicole_blog]. GitHub [here][nicole_gh].
 
@@ -70,7 +70,7 @@ During the next part of the presentation Nicole followed the FlaskR tutorial but
 
 Amazing presentation, kudos to Nicole ^^
 
-# Conclusions
+## Conclusions
 
 Wrapping up two days of conference is difficult, but I hope that my summaries for these two days are enough to give you an idea of how interesting this has been and how much have I learned.
 

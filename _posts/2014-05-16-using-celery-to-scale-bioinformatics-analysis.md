@@ -19,7 +19,7 @@ wanted to showcase how we use it in our production environment, this is a _real 
 
 <!--more-->
 
-# What is celery? How does it work?
+## What is celery? How does it work?
 Celery is an asynchronous task queue/job queue based on distributed messaging passing.
 Plainly speaking, and taking out complexities, what this means is that you will have a
 queue of messages produced by someone that we will call **producers**. Then you will have someone,
@@ -36,7 +36,7 @@ environment. But you can use [several][brokers].
 As I said at the beginning, there are tons of tutorials out there, being the official
 one very good. So I will skip the "_How-To_" and just describe our environment.
 
-# How do we use Celery?
+## How do we use Celery?
 [Bcbio-nextgen][bcbio] is the genomics pipeline we use at Science For Life Laboratory
 for the analysis of our samples. It is based on Python and developed by [Brad Chapman][brad].
 Celery is also written in Python, so the integration of the pipeline tasks with celery is straightforward.

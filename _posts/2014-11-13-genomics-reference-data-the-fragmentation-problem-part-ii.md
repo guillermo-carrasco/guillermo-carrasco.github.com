@@ -106,7 +106,7 @@ We use it all the time, but still there are some types of data or organisms that
 
 It would be so nice to have a single tool for this task…
 
-# Conclusions
+## Conclusions
 It is clear that something is wrong with the organization of genomics reference data. As I said on several occasions in this post,
 should be fairly easy to download and update such an important part of a genomics analysis.
 
