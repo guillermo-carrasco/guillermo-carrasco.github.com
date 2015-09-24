@@ -27,3 +27,11 @@ named `2015-10-16-my-awesome-post.md`, the final url for the blog post will be
 ### Writing drafts
 Any blog post in the `_drafts` directory will not be published in the built web site,
 so if desired, you can work on your blog posts there
+<<<<<<< HEAD
+=======
+
+### Theme
+The theme used for this blog is a slight modification of [jekyll-qck-theme][https://github.com/qckanemoto/jekyll-qck-theme].
+
+All attributions on style to qckanemoto, I just added some bits here and there. 
+>>>>>>> new_theme

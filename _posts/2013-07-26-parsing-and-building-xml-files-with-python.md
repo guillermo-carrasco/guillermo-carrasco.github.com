@@ -9,7 +9,7 @@ tags:
     - XML
     - parsing
 ---
-[JSON][json] is nowadays the most common way of “talking” with APIs and saving configuration files.
+[JSON][json] is nowadays the most common way of "talking" with APIs and saving configuration files.
 However, there is still a lot of software and APIs that use XML format. Actually,
 our new [LIMS][LIMS] uses XML to present API queries results, as well as some of the software
 that we use to analyze and manipulate sequencing data.
@@ -48,7 +48,7 @@ A [well-structured XML][good_xml] file should have one (and only one) root.
 The root, as well as all its elements (called children), are of the type Element.
 Elements are blocks of XML and can be nested. They have two basic properties:
 the **tag** and the **attributes**.
-The tag is the “name” of the block, and attributes is the list of attributes of the block. Let’s see this in our example:
+The tag is the "name" of the block, and attributes is the list of attributes of the block. Let’s see this in our example:
 
 ```python
 In [10]: languages = lang.getroot()

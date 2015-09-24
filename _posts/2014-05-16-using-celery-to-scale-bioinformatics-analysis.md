@@ -56,7 +56,7 @@ Step one is done locally on our processing servers because it is very I/O intens
 But step two is very CPU/memory intensive, and we need to do the analysis somewhere else. Here is where
 Celery comes in play. We are using an HPC center where we have our **workers**. These workers are
 listening to different message queues. When the preprocessing finishes on our servers (and the necessary
-data is sent to the HPC), these servers send a message “analyze” to one of this queues.
+data is sent to the HPC), these servers send a message "analyze" to one of this queues.
 When the workers pick up this message, the complete analysis starts. This figure illustrates our architecture:
 
 ![Celery scilife]({{ site.url }}/assets/images/using-celery-to-scale-bioinformatics-analysis/celery_scilife.png)
@@ -65,7 +65,7 @@ You may think that we are not properly using Celery, as even if the analysis can
 be split in several steps, we are sending a message that basically says: _Do… everything_!
 Well, this is partly true. Actually the pipeline is designed to be able to restart
 the analysis at any point, is just that we almost never have to do that. Take a
-look at [all the tasks][tasks] that we have defined. Also, the main task “analyze” basically
+look at [all the tasks][tasks] that we have defined. Also, the main task "analyze" basically
 launches a program that takes care of atomically send jobs to SLURM, the queueing
 system used in our HPC.
 

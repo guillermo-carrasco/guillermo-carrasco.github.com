@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: Mussol's blog
 subtitle: In automation we trust
@@ -15,3 +16,96 @@ markdown: redcarpet
 redcarpet:
     extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 highlighter: pygments
+=======
+#
+# Basic settings.
+#
+baseurl: ""
+url: "http://guillermo-carrasco.github.io/"
+title: Mussol's blog
+description: In automation we trust
+avatar: /assets/images/avatar.png
+language: en
+encoding: utf-8
+
+#
+# Icons
+#
+icons:
+  rss: true
+  email: guille.ch.88@gmail.com
+  github: guillermo-carrasco
+  twitter: guillemch
+  flickr: guillemcat
+  linkedin: https://www.linkedin.com/in/guillermocarrasco
+
+#
+# Prettify url.
+#
+permalink: pretty
+
+#
+# Scripts.
+#
+google_analytics: UA-65046630-2
+disqus: 'mussol'
+
+#
+# Localizations.
+#
+str_next: Next
+str_prev: Prev
+str_read_more: Read more...
+str_search: Search
+str_recent_posts: Recent posts
+str_show_all_posts: Show all posts
+
+#
+# Recent posts.
+#
+recent_posts_num: 10
+
+#
+# Pagination.
+#
+paginate: 10
+paginate_path: page/:num
+
+#
+# Social.
+#
+share_buttons: false
+ogp:
+  image_url: http://qckanemoto.github.io/jekyll-qck-theme/assets/img/ogp.png
+  fb:
+    admin: # facebook admin id
+    app_id: # facebook application id
+
+#
+# Styles: see "_sass/base/_variables.scss"
+#
+
+#
+# !! Danger zone !!
+#
+
+include: ["_pages"]
+
+markdown: redcarpet
+redcarpet:
+  extensions: ["autolink", "fenced_code_blocks", "strikethrough", "superscript", "with_toc_data", "tables", "footnotes", "no_intra_emphasis"]
+highlighter: pygments
+
+excerpt_separator: <!--more-->
+
+sass:
+  sass_dir: _sass
+  style: :compressed # or :expanded
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - vendor
+>>>>>>> new_theme

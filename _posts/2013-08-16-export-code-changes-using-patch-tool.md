@@ -33,11 +33,11 @@ machine may be intense, user/permission errors, etc. And, what if you have some
 local change in your copy? They will be overwritten.
 * Make a diff patch.
 
-> “**patch** is a Unix program that updates text files according to instructions contained
+> "**patch** is a Unix program that updates text files according to instructions contained
 in a separate file, called a patch file. The patch file (also called a patch for short)
 is a text file that consists of a list of differences and is produced by running the
 related diff program with the original and updated file as arguments. Updating files
-with patch is often referred to as applying the patch or simply patching the files – Wikipedia”
+with patch is often referred to as applying the patch or simply patching the files – Wikipedia"
 
 So there you have it. Actually, the output of the git diff command is all you need to create the patch, on the server repo:
 

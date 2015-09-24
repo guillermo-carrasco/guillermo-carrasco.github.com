@@ -20,6 +20,8 @@ There were as usual several projects going on, but this year I was greatly surpr
 of the [Common Workflow Language][cwl] group; all the people in the header picture are working on this project.
 I got involved in the project as well – _actually had interest on it before, but couldn’t see how to contribute to it_.
 
+<!--more-->
+
 To start with I should try to explain what the project is about; citing the documentation:
 
 >The Common Workflow Language (CWL) is an informal, multi-vendor working group consisting

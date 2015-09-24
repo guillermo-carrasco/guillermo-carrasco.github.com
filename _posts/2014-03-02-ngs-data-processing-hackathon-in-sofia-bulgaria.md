@@ -43,7 +43,7 @@ the aligner bowtie2, because the indexes are not available in the public [Galaxy
 where all the reference data for the tests is downloaded, so if the user wouldn’t have then,
 the benchmarking would crash. We implemented a simple method to build the indexes in case of not finding them.
 
-After that last fix and a bit of refactoring in the tests, running “make benchmark”
+After that last fix and a bit of refactoring in the tests, running "make benchmark"
 on FACS root directory will build FACS, download reference data, generate test data with
 [SimNGS][simngs], and run tests against this data with both FACS and fastq_screen
 (which will be also automatically be downloaded and installed). If you have an

@@ -14,19 +14,21 @@ After an excellent set of talks the first day, the expectations were high! I hav
 given that I was giving a talk today together with Robin Andeer, I could not be as focused as yesterday.
 Here is my best attempt on summarizing the talks I found more interesting.
 
-# 1. Keynote – <u>Kate Heddleston</u>
+### 1. Keynote – <u>Kate Heddleston</u>
 
 More about Kate [here][kate].
 
-The title of the talk was “The ethics of being a programmer”. Kate has given a wonderful talk about the situation of privacy and freedom when it comes to the digital world, that at the end of the day, is the personal world as well. The talk started with the story of how her father saves lives as a doctor. He has the **legal** and _moral_ obligation to do his absolute best to save these lives.
+The title of the talk was "The ethics of being a programmer". Kate has given a wonderful talk about the situation of
+privacy and freedom when it comes to the digital world, that at the end of the day, is the personal world as well.
+The talk started with the story of how her father saves lives as a doctor. He has the **legal** and _moral_ obligation to do his absolute best to save these lives.
 
-This could be extrapolated to us as developers as well, maybe we cannot directly save the life of one person that has had an accident, but we can reach thousands of people, and as Kate said “The power of reaching thousands of people comes with a responsibility and ethics”.
+This could be extrapolated to us as developers as well, maybe we cannot directly save the life of one person that has had an accident, but we can reach thousands of people, and as Kate said "The power of reaching thousands of people comes with a responsibility and ethics".
 
-The talk has gone around two “study cases”: Twitter harassment and Snapchat pornography “sharing”.  Unfortunately this is one of the talks where you _have to be there_ in order to really get what she was talking about.
+The talk has gone around two "study cases": Twitter harassment and Snapchat pornography "sharing".  Unfortunately this is one of the talks where you _have to be there_ in order to really get what she was talking about.
 
 **Very** nice discussion at the end of the talk, as every time that morality or ethics take place on a conversation (believe me, I’m a vegan…).
 
-# 2. Why Django sucks – <u>Emil Stenström</u>
+# 2. Why Django sucks – <u>Emil Stenstrom</u>
 
 More about Emil [here][emil].
 
@@ -47,7 +49,7 @@ The talk focused on three main problems that Emil finds in Django.
 # 3. How Python Drives the Analysis of Billions of DNA Sequences – </u>Guillermo Carrasco and Robin Andeer</u>
 More about me… nah, you’re already reading my blog. More about Robin [here][robin].
 
-So that was our talk! I’ll let other judge the quality of the talk and I’ll say only two things. One is that you can find _everything_ about our talk in [this repository][repo], from the slides to the transcript of what we said (maybe not 100% updated, but informative enough).
+So that was our talk! I’ll let other judge the quality of the talk and I'll say only two things. One is that you can find _everything_ about our talk in [this repository][repo], from the slides to the transcript of what we said (maybe not 100% updated, but informative enough).
 
 Second is about the feeling of the talk, which was great! Despite the jitters, the talk was relaxed and people seemed interested. We got some very interesting questions at the end of the talk, and even after the questions time, people came to us to congratulate us and/or continue the discussion, that was very reinforcing!
 
@@ -70,7 +72,7 @@ Amazing presentation, kudos to Nicole ^^
 
 Wrapping up two days of conference is difficult, but I hope that my summaries for these two days are enough to give you an idea of how interesting this has been and how much have I learned.
 
-Just want to thank the conference staff and voluntaries for letting us talk and for an amazing organization: one of the very few conferences that I haven’t starved for being vegan, fantastic!
+Just want to thank the conference staff and voluntaries for letting us talk and for an amazing organization: one of the very few conferences that I haven't starved for being vegan, fantastic!
 
 Also thanks a lot to Robin for bearing with me before and during the presentation, we’ve worked hard on this together :)
 

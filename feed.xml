@@ -1,10 +1,15 @@
 ---
 layout: null
 ---
+<<<<<<< HEAD
+=======
+
+>>>>>>> new_theme
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ site.title | xml_escape }}</title>
+<<<<<<< HEAD
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
@@ -24,6 +29,27 @@ layout: null
         {% for cat in post.categories %}
         <category>{{ cat | xml_escape }}</category>
         {% endfor %}
+=======
+    <atom:link href="{{ '/feed.xml' | prepend: site.baseurl }}" rel="self" type="application/rss+xml"/>
+    <link>{{ site.baseurl }}/</link>
+    <description>{{ site.description | xml_escape }}</description>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    {% for post in site.posts limit:15 %}
+      {% include page-url-resolver.html page=post %}
+      <item>
+        <title>{{ post.title | xml_escape }} | {{ site.title | xml_escape }}</title>
+        {% if post.eye_catch %}
+        <image>
+          <url>{{ post.eye_catch }}</url>
+          <title>{{ post.title }}</title>
+          <link>{{ url }}</link>
+        </image>
+        {% endif %}
+        <link>{{ url }}</link>
+        <guid isPermaLink="true">{{ url }}</guid>
+        <description>{{ post.content | xml_escape }}</description>
+        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+>>>>>>> new_theme
       </item>
     {% endfor %}
   </channel>

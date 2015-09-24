@@ -20,7 +20,7 @@ tags:
 
 So apparently today it has been three years since I created my twitter account, yay!
 However I feel like it was just a year ago that I started using it seriously… maybe 2?
-Was I using it before? I definitely think I had a “disconnection” period from twitter at some point…
+Was I using it before? I definitely think I had a "disconnection" period from twitter at some point…
 
 I was asking myself these questions on the bus today, so I decided that it could be a
 fun exercise to actually answer these questions with facts. How? Well, fortunately
@@ -30,31 +30,30 @@ and that’s what I did :-).
 Just with a first call to the `/account/verify_credentials.json` API,
 you already get a lot of information:
 
-```
-//NOTE: Some info has been removed from the original response!
-{   'created_at': u'Sun Sep 25 09:09:01 +0000 2011',
-    'description': u'Computer scientist. Passionate about new technologies, programming languages and geeky stuff in general. Very interested in bioinformatics.',
-    'favourites_count': 37,
-    'followers_count': 68,
-    'friends_count': 72,
-    'lang': u'en',
-    'listed_count': 2,
-    'location': u'Stockholm',
-    'name': u'Guillermo Carrasco',
-    'screen_name': u'guillemch',
-    'status': {   'created_at': u'Fri Sep 26 06:39:32 +0000 2014',
-                  'favorite_count': 1,
-                  'favorited': False,
-                  'hashtags': [u'Twitterversary'],
-                  'id': 515390196389801984,
-                  'lang': u'en',
-                  'retweeted': False,
-                  'source': u'Twitter for Android',
-                  'text': u"#Twitterversary it's 3 years in twitter today! (Only one using it actually xD)",
-                  'truncated': False},
-    'statuses_count': 376,
-    'time_zone': u'Stockholm',
-    'utc_offset': 7200}
+```json
+{   "created_at": "Sun Sep 25 09:09:01 +0000 2011",
+    "description": "Computer scientist. Passionate about new technologies, programming languages and geeky stuff in general. Very interested in bioinformatics.",
+    "favourites_count": 37,
+    "followers_count": 68,
+    "friends_count": 72,
+    "lang": "en",
+    "listed_count": 2,
+    "location": "Stockholm",
+    "name": "Guillermo Carrasco",
+    "screen_name": "guillemch",
+    "status": {   "created_at": "Fri Sep 26 06:39:32 +0000 2014",
+                  "favorite_count": 1,
+                  "favorited": False,
+                  "hashtags": ["Twitterversary"],
+                  "id": 515390196389801984,
+                  "lang": "en",
+                  "retweeted": False,
+                  "source": "Twitter for Android",
+                  "text": "#Twitterversary it's 3 years in twitter today! (Only one using it actually xD)",
+                  "truncated": False},
+    "statuses_count": 376,
+    "time_zone": "Stockholm",
+    "utc_offset": 7200}
 ```
 
 Isn’t it cool? One day like today in 2011 I created my account, and I already have some of the stuff I wanted:
@@ -83,7 +82,7 @@ tweets… how many are actually mine, and not retweeted? Twitter API documentati
 
 > Retweets can be distinguished from typical Tweets by the existence of a retweeted_status attribute
 
-So if we group the tweets by the field “retweeted_status” it turns out that only
+So if we group the tweets by the field "retweeted_status" it turns out that only
 173 tweets are mine! Thats slightly less than 50% of them. I think it’s ok, a good
 balance between speaking and listening.
 
