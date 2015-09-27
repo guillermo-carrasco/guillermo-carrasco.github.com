@@ -12,6 +12,10 @@ layout: default
     </article>
 </div>
 
+{% for tag in page.tags %}
+<a class="meta-tag" href="{{ '/search/?t=' | append: tag | prepend: site.baseurl }}">#{{ tag }}</a>
+{% endfor %}
+
 {% if site.disqus %}
 <section class="comments">
     {% include disqus.html %}
