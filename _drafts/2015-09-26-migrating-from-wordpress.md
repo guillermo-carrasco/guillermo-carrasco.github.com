@@ -53,6 +53,8 @@ follow the [import instructions][import_instructions] provided by disqus. If you
 have your own domain name, and you kept the permalink structure on the migration,
 everything should work. If you don't have your own domain name... well, good luck!
 
+Porting of comments worked super smoothly for me. 
+
 ### Google analytics
 One of the things that made me hesitate more about migrating was WordPress stats
 page. The stats page in WordPress is so nice and gives you a very nice report on
