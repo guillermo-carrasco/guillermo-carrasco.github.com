@@ -17,7 +17,7 @@ Let's start with the most FAQ, _why?_
 
 <!--more-->
 
-#Why?
+##Why?
 
 ### Inspiration
 People I professionally admire and respect decided a while ago to move their blogs from their previous
@@ -45,7 +45,7 @@ domain itself, and they didn't even removed the adds... bad WordPress, bad!
 Ok, I have to admit I feel cooler by writing posts in a simple text editor in markdown than using the
 fancy WordPress editor page. Call me a hipster %-).
 
-# How?
+## How?
 
 As I said, there are lots of How-To's for migrating from WordPress to GH + Jekyll, for example:
 
@@ -69,14 +69,14 @@ with Jekyll, and it does the work perfectly well.
 
 To import your already existing comments and discussions from WordPress just
 follow the [import instructions][import_instructions] provided by disqus. If you
-have your own domain name, and you kept the permalink structure on the migration,
-everything should work. If you don't have your own domain name... well, good luck!
+have your own domain name, and you kept the permalink structure on the migration, then
+everything should work as disqus will create threads based on your old URLs. If you don't have your own domain name... well, good luck!
 
 Porting of comments worked super smoothly for me, and I can see all the comments from my old posts in
-my newly moved blog. 
+my newly moved blog.
 
-### Google analytics
-One of the things that made me hesitate more about migrating was WordPress stats
+**Google analytics**
+Another thing that made me hesitate  about migrating was WordPress stats
 page. The stats page in WordPress is so nice and gives you a very nice report on
 your blog statistics like: Visitors, views, likes, countries, clicks, etc.
 
@@ -85,6 +85,13 @@ as it is free and easy to integrate. Like disqus, only adding a small
 JS snipped in all pages you want to track is enough after signing in into Google
 Analytics and linking your page. In this case though, you can't recover stats from
 WordPress, which is a pity since I had stats from 2012. Not a big deal though.
+
+## Summary
+I think the trouble was worth it, it was a bit ted¡ious to move all the posts, since I decided to port them
+manually, both for reviewing and because all exporters I found converted my posts to ugly html instead of
+markdown.
+
+_Bonus_: Following the core idea of the blog "In automation we trust", this blog is automatically tested in [Travis-CI](https://travis-ci.org/guillermo-carrasco/guillermo-carrasco.github.com)
 
 [disqus]: https://disqus.com/
 [import_instructions]: https://help.disqus.com/customer/portal/articles/466255-importing-comments-from-wordpress
