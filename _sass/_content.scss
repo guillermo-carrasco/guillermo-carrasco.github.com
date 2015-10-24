@@ -121,7 +121,8 @@
 
     article {
         width: 85%;
-        float: right;
+        margin-left: auto;
+        margin-right: auto;
         header {
             margin-bottom: $margin;
             .panel {
