@@ -120,8 +120,8 @@
     }
 
     article {
-        width: 100%;
-        float: left;
+        width: 85%;
+        float: right;
         header {
             margin-bottom: $margin;
             .panel {
@@ -169,6 +169,7 @@
     }
 
     .comments {
+        margin-top: $margin;
         margin-bottom: $margin;
     }
 
