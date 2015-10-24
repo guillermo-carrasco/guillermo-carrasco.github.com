@@ -1,12 +1,15 @@
 // button.
 .btn {
-    border-radius: 0.3em;
-    border: 1px solid;
+    border-radius: 5px;
     display: inline-block;
     padding: 0.5em 0.75em;
+    background-color: $brand-color;
+}
+a.btn {
+    color: white;
 }
 a.btn:hover {
-    background: $link-color;
+    background: darken($brand-color, 20%);
     color: $background-color;
     text-decoration: none;
 }
