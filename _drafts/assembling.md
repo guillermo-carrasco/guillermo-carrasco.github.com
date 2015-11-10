@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "But... how do we get to a reference Genome?"
-date:
+date: 2015-11-10
 comments: true
 tags:
     - bioinformatics
