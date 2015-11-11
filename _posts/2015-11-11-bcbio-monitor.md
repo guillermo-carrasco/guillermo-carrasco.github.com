@@ -39,7 +39,7 @@ function? You may think that's the logical choice at first, but think about this
 complex analysis pipelines has a lot of dependencies and its tricky to install. Even with [all the facilities][installation]
 that [Brad Chapman][brad] gives us to install bcbio, still time and computational resources are needed
 to install bcbio-nextgen. I thought that, to be a practical tool, the potential users should be able to
-install the monitor real quick _on a personal computer_ and start tracking analyses wherever they're running
+install the monitor really quick _on a personal computer_ and start tracking analyses wherever they're running
 (which is generally a remote HPC or Cloud environment).
 
 Every programmer should know the [importance of good logging practices][logging] for any application, right? bcbio-nextgen
@@ -48,7 +48,7 @@ generates, instead of inserting tracking code in the pipeline itself. **This mak
 from the pipeline**, making it possible to just read ongoing analyses log files to build a status graph,
 or even read finished analyses logs to get a global summary.
 
-## Updating the client (web frontend)
+## Updating the web client
 Having decided to use the log file, we need a way to update the client application on every pipeline
 step. There are mainly two options:
 
