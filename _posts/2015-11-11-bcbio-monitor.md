@@ -72,6 +72,10 @@ to the client.
 
 With SSE, the client is updated _only_ on important events, and no useless requests to the server are needed.
 
+This is how the final architecture looks like:
+
+![architecture]({{ site.url }}/assets/images/bcbio-monitor/bcbio-monitor-flowchart.png)
+
 # bcbio-monitor: Features
 Once the backend architecture was decided, the ""only"" thing remaining was to build the informative
 frontend application. As of by version 1.0, this is how bcbio-monitor looks like:
