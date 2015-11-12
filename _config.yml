@@ -55,6 +55,7 @@ paginate_path: page/:num
 #
 # Social.
 #
+twitter_username: guillemch
 share_buttons: false
 ogp:
   image_url: http://mussol.org/assets/images/avatar.png
