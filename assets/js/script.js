@@ -32,3 +32,17 @@ $(function () {
         topSpacing: parseInt(topSpacing)
     });
 });
+
+// Share pops up new windows
+$(function (){
+   $('.share-page a').click(function(e){
+       // don't fire the link like normal
+       e.preventDefault();
+
+       // Get the URL that it pointed at
+       var url = $(this).attr('href');
+
+       // Launch the popup window
+	   window.open(url, "myWindow", "width=400, height=200");
+   });
+});
