@@ -55,7 +55,7 @@ curl -X GET http://admin:admin_password@localhost:5984/foo/_security | xargs cur
 Yay! This way you have the database foo completely replicated.
 
 Last but not least, If you’ve read my other posts you may have noticed that I am
-quite a fan of automation, and I usually program in Python. [Here][script] you have a little present.
+quite a fan of automation, and I usually program in Python. [Here]({{ site.url }}/assets/codes/couchdb_full_replication/couchdb_replication.py) you have a little present.
 This script can be used to automatically set up continuous replication from a source database
 to a destination database. It also has an option to trigger a cloning: The destination
 database will be **completely removed** and the source database will be cloned there.
@@ -69,4 +69,3 @@ Hope this post helps! If it does, share!
 
 
 [docs]: http://wiki.apache.org/couchdb/Replication
-[script]: {{ site.url }}/assets/codes/couchdb_full_replication/couchdb_replication.py
