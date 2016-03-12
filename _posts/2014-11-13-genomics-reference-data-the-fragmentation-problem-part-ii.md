@@ -22,7 +22,7 @@ I decided to group these questions because they’re so closely related: You fet
 Here, some results:
 
 <center>
-![Automated fetching]({{ site.url }}/assets/images/genomics_reference_ii/automated_fetching_t.png)
+<img src="/images/genomics_reference_ii/automated_fetching_t.png"/>
 </center>
 
 As expected, the majority of the people uses a combination of automated and manual work.
@@ -39,7 +39,7 @@ specie should be easier to automate.
 _How do you structure the reference data?_
 
 <center>
-![Automated fetching]({{ site.url }}/assets/images/genomics_reference_ii/structure_t2.png)
+<img src="/images/genomics_reference_ii/structure_t2.png"/>
 </center>
 
 I am quite surprised with this result actually. I honestly thought that a higher
@@ -53,7 +53,7 @@ This was an open-ish question and thus difficult to plot, so I’ll just paste h
 relevant answers. Again remember that you can obtain the responses form in my [GitHub repository][responses] for this blog:
 
 <center>
-![Structure why]({{ site.url }}/assets/images/genomics_reference_ii/structure_why.png)
+<img src="/images/genomics_reference_ii/structure_why.png"/>
 </center>
 
 Indeed the major reason for structuring the data on a particular way is unification and convenience.
@@ -93,7 +93,7 @@ evident that the difficulty on automation of this process makes it hard to catch
 <u>_Question 8</u>: Do you use any of these tools for downloading reference data?_
 
 <center>
-![Tools]({{ site.url }}/assets/images/genomics_reference_ii/tools3.png)
+<img src="/images/genomics_reference_ii/tools3.png"/>
 </center>
 
 There are lots of tools to help with the task of fetching reference data. [Cloudbiolinux][cloudbiolinux]
@@ -139,8 +139,8 @@ made it quite difficult to parse and extract conclusions, but as I said in Part 
 Please share if you found this post useful, and feel free to comment!
 
 
-[grd1]: {{ site.url }}/2014/10/14/genomics-reference-data-the-fragmentation-problem-part-i
-[responses]: {{ site.url }}/assets/codes/genomics_reference/Genomics_Reference_Data-Form_responses_no_personal.tsv
+[grd1]: /2014/10/14/genomics-reference-data-the-fragmentation-problem-part-i
+[responses]: /assets/codes/genomics_reference/Genomics_Reference_Data-Form_responses_no_personal.tsv
 [cloudbiolinux]: http://cloudbiolinux.org/
 [torrent]: http://en.wikipedia.org/wiki/BitTorrent
 [roman]: http://blogs.nopcode.org/brainstorm/

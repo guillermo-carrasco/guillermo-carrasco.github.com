@@ -27,7 +27,7 @@ Changing your programming editor because you’re working on a different platfor
 is not as easy to find, I give you that. You can open several files on different windows,
 split windows and move around them, search regular expressions in your files, etc. Just _all_ you need:
 
-    ![vim]({{ site.url }}/assets/images/why_i_only_use_vim/vim.png)
+    ![vim](/images/why_i_only_use_vim/vim.png)
 
 3. **Light**: I don’t say that there aren’t other good IDEs over there that does all of this and they’re multiplatform, but man, I just don’t want to have half of my RAM occupied by an opened editor, or see how my computer slows down when I open it, I just don’t want to. VIM is one of the lightest editors I’ve worked with ever.
 
@@ -43,7 +43,7 @@ will make VIM ever greater. For those who miss autocompletion for example, there
 is an awesome plugin called [YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 that will allow you to do thinks like this:
 
-    ![vim]({{ site.url }}/assets/images/why_i_only_use_vim/ycm.gif)
+    ![vim](/images/why_i_only_use_vim/ycm.gif)
 
 Finally, a plus reason: It’s everywhere out of the box! (well I’m thinking on serious systems,
 of course you have to install it by yourself on Windows). This means that no matter

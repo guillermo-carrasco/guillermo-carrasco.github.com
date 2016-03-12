@@ -25,9 +25,7 @@ Plainly speaking, and taking out complexities, what this means is that you will 
 queue of messages produced by someone that we will call **producers**. Then you will have someone,
 we will call them workers, reading this messages and doing some work. The following picture would represent this workflow:
 
-<center>
-![Celery queue]({{ site.url }}/assets/images/using-celery-to-scale-bioinformatics-analysis/celery_queue.png)
-</center>
+![Celery queue](/images/using-celery-to-scale-bioinformatics-analysis/celery_queue.png)
 
 This is the most basic Celery architecture you can have. Celery can work with several
 messaging queue systems, called **brokers**. We use [RabbitMQ][rabbit] for our production
@@ -61,7 +59,7 @@ listening to different message queues. When the preprocessing finishes on our se
 data is sent to the HPC), these servers send a message "analyze" to one of this queues.
 When the workers pick up this message, the complete analysis starts. This figure illustrates our architecture:
 
-![Celery scilife]({{ site.url }}/assets/images/using-celery-to-scale-bioinformatics-analysis/celery_scilife.png)
+![Celery scilife](/images/using-celery-to-scale-bioinformatics-analysis/celery_scilife.png)
 
 You may think that we are not properly using Celery, as even if the analysis can
 be split in several steps, we are sending a message that basically says: _Do… everything_!

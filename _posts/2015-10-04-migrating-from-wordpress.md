@@ -17,7 +17,7 @@ Let's start with the most FAQ, _why?_
 
 <!--more-->
 
-##Why?
+## Why?
 
 ### Inspiration
 People I professionally admire and respect decided a while ago to move their blogs from their previous

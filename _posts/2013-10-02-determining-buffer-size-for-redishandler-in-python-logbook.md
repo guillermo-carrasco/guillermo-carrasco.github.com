@@ -23,7 +23,7 @@ I thought that this would be very useful for us and therefore I started to do so
 testing. The tests worked so smoothly that we have decided to put Logstash into production,
 and here comes the story. The figure below represents the recommended Lostash stack:
 
-![Logstash architecture]({{ site.url }}/assets/images/determining-buffer-size-for-redishandler-in-python-logbook/getting-started-centralized-overview-diagram.png)
+![Logstash architecture](/images/determining-buffer-size-for-redishandler-in-python-logbook/getting-started-centralized-overview-diagram.png)
 
 The message broker they recommend is Redis, and this is the one I tested.
 The majority of our scripts and tools are written in Python, and for logging,
@@ -47,19 +47,19 @@ I prepared a [script][script] that for a set of buffer sizes, takes the time
 required to insert a certain amount of messages. I tested different buffer sizes
 and different amount of messages sent in a row. These are the results:
 
-![Performance 1000000]({{ site.url }}/assets/images/determining-buffer-size-for-redishandler-in-python-logbook/performance_1000000.png)
+![Performance 1000000](/images/determining-buffer-size-for-redishandler-in-python-logbook/performance_1000000.png)
 
 If we zoom in, we can see that, in all cases, with a buffer of 128 messages we’ve
 been able to insert more messages in less time. Buffering is indeed necessary,
 otherwise it becomes really slow for higher number of events:
 
-![Performance 100]({{ site.url }}/assets/images/determining-buffer-size-for-redishandler-in-python-logbook/performance_100.png)
+![Performance 100](/images/determining-buffer-size-for-redishandler-in-python-logbook/performance_100.png)
 
-![Performance 1000]({{ site.url }}/assets/images/determining-buffer-size-for-redishandler-in-python-logbook/performance_1000.png)
+![Performance 1000](/images/determining-buffer-size-for-redishandler-in-python-logbook/performance_1000.png)
 
-![Performance 10000]({{ site.url }}/assets/images/determining-buffer-size-for-redishandler-in-python-logbook/performance_10000.png)
+![Performance 10000](/images/determining-buffer-size-for-redishandler-in-python-logbook/performance_10000.png)
 
-![Performance 100000]({{ site.url }}/assets/images/determining-buffer-size-for-redishandler-in-python-logbook/performance_100000.png)
+![Performance 100000](/images/determining-buffer-size-for-redishandler-in-python-logbook/performance_100000.png)
 
 The speed-buffer size ratio seems stable throughout all tests but not all corner
 cases are covered in this benchmark. Other factors like increasing or decreasing
@@ -78,5 +78,5 @@ of the handler (you can see our discussions in the [pull request][pr] to the mas
 [logbook]: http://pythonhosted.org/Logbook/
 [quickstart]: http://pythonhosted.org/Logbook/quickstart.html
 [gustavo]: http://gjcarneiro.blogspot.se/
-[script]: {{ site.url }}/assets/codes/determining-buffer-size-for-redishandler-in-python-logbook/redis_performance.py
+[script]: /assets/codes/determining-buffer-size-for-redishandler-in-python-logbook/redis_performance.py
 [pr]: https://github.com/mitsuhiko/logbook/pull/92

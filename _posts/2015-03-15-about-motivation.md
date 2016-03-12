@@ -12,7 +12,7 @@ but just my reflexions about how to get motivated, and my thoughts about why I t
 
 The idea of this blog post comes from a small "motivational crisis" I suffered right after my Christmas vacations.
 
-<img src="{{ site.url }}/assets/images/motivation/streak.png" alt="Longest GitHub streak" align="left">
+<img src="/images/motivation/streak.png" alt="Longest GitHub streak" align="left">
 
 "A picture speaks a thousand words" – they say, so just take a look to [my GitHub][github] contribution chart to see what I mean with "motivational crisis".
 
