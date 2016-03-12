@@ -6,10 +6,12 @@
 pre code {
   border-radius: 10px;
   font-family:  $code-font;
+  padding: $base-spacing/2 $base-spacing/10 $base-spacing/2 $base-spacing/10;
   display: block;
   white-space: pre;
   overflow-x: auto;
   word-wrap: normal;
+  margin-left: 5px;
   @media(max-width: $break-small) {
       font-size: 10px;
   }

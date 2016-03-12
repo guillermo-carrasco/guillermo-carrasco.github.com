@@ -28,4 +28,4 @@ Any blog post in the `_drafts` directory will not be published in the built web 
 so if desired, you can work on your blog posts there
 
 ### Theme
-The theme used for this blog is a slight modification of [accent][https://github.com/bk2dcradle/accent].
+The theme used for this blog is a slight modification of [accent](https://github.com/bk2dcradle/accent).

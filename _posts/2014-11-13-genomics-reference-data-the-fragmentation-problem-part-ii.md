@@ -59,7 +59,7 @@ relevant answers. Again remember that you can obtain the responses form in my [G
 Indeed the major reason for structuring the data on a particular way is unification and convenience.
 The "I think its more logical" answers evidences the fact that in some particular sources of reference data, you can be very lost at the beginning….
 
-<u>_Question 7</u>: How do you keep your reference data up to date?_
+<u>Question 7</u>: How do you keep your reference data up to date?_
 
 This is also interesting, and the answers to this questions were quite disappointing,
 in the sense that there doesn’t seem to be any way to do this nicely… Again I
@@ -90,7 +90,7 @@ As you can see, the responses are quite diverse, and it involves a lot of manual
 Lots of answers are on the lines "when a project starts" or "on demand", again making
 evident that the difficulty on automation of this process makes it hard to catch up with.
 
-<u>_Question 8</u>: Do you use any of these tools for downloading reference data?_
+<u>Question 8</u>: Do you use any of these tools for downloading reference data?_
 
 <center>
 <img src="/images/genomics_reference_ii/tools3.png"/>

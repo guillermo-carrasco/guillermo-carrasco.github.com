@@ -57,7 +57,7 @@ My intention with the questions in the survey were to determine:
 2. What is other people doing? What solutions are they implementing?
 3. If the problem is real… what can we do?
 
-_<u>Question 1</u>: Do you work only with one species, or several species’ genomes?_
+<u>Question 1</u>: Do you work only with one species, or several species’ genomes?_
 
 <img src="/images/genomics_reference/single_or_multiple_species1.png" alt="Single or multiple species" align="right">
 
@@ -69,7 +69,7 @@ It turns out that most of the groups are working with several species.
 
 This is our case as well, and actually I find this group more interesting for the purpose of this survey, so great that is the clear majority of the cases.
 
-<u>_Question 2</u>: What kind of reference data do you use for your research?_
+<u>Question 2</u>: What kind of reference data do you use for your research?_
 
 ![Reference Usage](/images/genomics_reference/reference_usage.png)
 
@@ -85,7 +85,7 @@ are as expected less common.
 Here in the National Genomics Infrastructure in Sweden we use Reference Genome,
 Index files for several aligners and all the data in the more common groups.
 
-<u>_Question 3</u>: Where do you fetch your data from?_
+<u>Question 3</u>: Where do you fetch your data from?_
 
 ![Reference locations](/images/genomics_reference/reference_data_locations2.png)
 

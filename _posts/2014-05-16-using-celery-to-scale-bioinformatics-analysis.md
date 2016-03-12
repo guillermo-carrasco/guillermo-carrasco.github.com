@@ -17,15 +17,15 @@ tags:
 Yes I know, there are tons of tutorials on how to run Celery out there, but I just
 wanted to showcase how we use it in our production environment, this is a _real life_ example.
 
-<!--more-->
-
 ## What is celery? How does it work?
 Celery is an asynchronous task queue/job queue based on distributed messaging passing.
 Plainly speaking, and taking out complexities, what this means is that you will have a
 queue of messages produced by someone that we will call **producers**. Then you will have someone,
 we will call them workers, reading this messages and doing some work. The following picture would represent this workflow:
 
-![Celery queue](/images/using-celery-to-scale-bioinformatics-analysis/celery_queue.png)
+<center>
+<img src="/images/using-celery-to-scale-bioinformatics-analysis/celery_queue.png"/>
+</center>
 
 This is the most basic Celery architecture you can have. Celery can work with several
 messaging queue systems, called **brokers**. We use [RabbitMQ][rabbit] for our production

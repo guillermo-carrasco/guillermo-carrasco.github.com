@@ -15,7 +15,9 @@ tags:
     - tweeter
 ---
 
-![Twitteraniversary](/images/mining_twitter/aniversary.png)
+<center>
+<img src="/images/mining_twitter/aniversary.png"/>
+</center>
 
 So apparently today it has been three years since I created my twitter account, yay!
 However I feel like it was just a year ago that I started using it seriously… maybe 2?
@@ -67,7 +69,7 @@ Isn’t it cool? One day like today in 2011 I created my account, and I already 
 This plot represents the number of tweets over time:
 
 <center>
-    ![Tweets per day](/images/mining_twitter/tweets_per_day.png)
+    <img src="/images/mining_twitter/tweets_per_day.png"/>
 </center>
 
 As I suspected… I was actually some time without tweeting anything: From February

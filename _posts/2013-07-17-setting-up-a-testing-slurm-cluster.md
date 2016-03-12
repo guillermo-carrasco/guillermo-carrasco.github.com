@@ -25,7 +25,7 @@ cluster in order to test things things that require a cluster. To set up a local
 cluster, the only thing you need is Vagrant installed in your machine. I’ve tested
 SLURM with Ubuntu 12.04 LTS box, you can easily add this box to your system running:
 
-```bash
+```
 vagrant box add precise64 http://files.vagrantup.com/precise64.box
 ```
 
@@ -38,30 +38,28 @@ and will install SLURM in both of them. It will also copy a very basic SLURM con
 file that can be also found in my GitHub account. Run the following command in the
 same directory where you have downloaded the Vagrantfile:
 
-    `vagrant up`
+        vagrant up
 
 2. Unfortunately we have to do some manual steps now. SLURM uses [MUNGE][munge]
 for authentication, and we  have to set it up. Both machines need to have the same
 MUNGE security key. Connect to the controller (will also work if you connect to the server),
 and create a MUNGE security key:
 
-    `sudo /usr/sbin/create-munge-key`
+        sudo /usr/sbin/create-munge-key
 
 3. Then, copy the key to the other machine. If you created the key in the controller:
 
-    `sudo scp /etc/munge/munge.key vagrant@server:/home/vagrant/`
+        sudo scp /etc/munge/munge.key vagrant@server:/home/vagrant/
 
 4. In the server, copy the key from the vagrant home to the corresponding configuration
 directory and change the ownership to munge user:
 
-    ```
-    sudo cp ~/munge.key /etc/munge
-    sudo chown munge /etc/munge/munge.key
-    ```
+        sudo cp ~/munge.key /etc/munge
+        sudo chown munge /etc/munge/munge.key
 
 5. Start MUNGE daemons in both machines:
 
-    `sudo /etc/init.d/munge start`
+        sudo /etc/init.d/munge start
 
 6. Finally, run SLURM services:
     * On the controller: `sudo slurmctld -D &`
@@ -70,7 +68,7 @@ directory and change the ownership to munge user:
 And that’s all! You can now submit jobs to your mini SLURM cluster, try it out with
 this simple batch script:
 
-```
+```bash
 #SBATCH -p debug
 #SBATCH -n 1
 #SBATCH -t 12:00:00
@@ -80,9 +78,7 @@ this simple batch script:
 ls / > /home/vagrant/slurm.out
 ```
 
-Run it using:
-
-`sbatch test.sh`
+Run it using: `sbatch test.sh`
 
 You can use the same VM configuration to test other things that require a cluster (Hadoop?).
 

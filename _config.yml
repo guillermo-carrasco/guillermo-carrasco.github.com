@@ -35,6 +35,7 @@ permalink: pretty
 
 # Comments are powered by disqus
 comments: true
+disqus: mussol
 
 # keep about_stub roughly 12 words long for best results
 # This will show up at the bottom of each post
