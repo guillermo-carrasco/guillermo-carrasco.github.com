@@ -2,25 +2,22 @@
 layout: default
 ---
 
-{% for post in paginator.posts %}
-<div class="article-wrapper">
-    <article>
-    {% include article-header.html page=post link=true %}
-        <section class="post-content">
-            {% assign size = post.content | split: site.excerpt_separator | size %}
-            {% if size > 1 %}
-            {{ post.excerpt }}
-            <a class="btn" href="{{ post.url | prepend: site.baseurl }}">{{ site.str_read_more }}</a>
-            {% else %}
-            {{ post.content }}
-            {% endif %}
-        </section>
-    </article>
-</div>
+{% include intro.html %}
 
-{% if forloop.last != true %}
-<article><hr/></article>
-{% endif %}
-{% endfor %}
-
-{% include paginator.html %}
+<section class="post-list">
+    <div class="container">
+        {% for post in paginator.posts %}
+            <div class="post-preview">
+                <span class="post-title alignable pull-left">
+                    <a class="post-link underline" href="{{ post.url | prepend: site.baseurl }}">
+                        {{ post.title }}
+                    </a>
+                </span>
+                <span class="post-time alignable pull-right">
+                    <time>{{ post.date | date: '%B %d, %Y '}}</time>
+                </span>
+                <div style="clear:both"></div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

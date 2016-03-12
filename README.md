@@ -1,6 +1,5 @@
 # Mussol blog
 
-[![Build Status](https://travis-ci.org/guillermo-carrasco/guillermo-carrasco.github.com.svg?branch=master)](https://travis-ci.org/guillermo-carrasco/guillermo-carrasco.github.com)
 
 This repository contains the whole source code for my blog, including images,
 code and more.
@@ -29,6 +28,4 @@ Any blog post in the `_drafts` directory will not be published in the built web 
 so if desired, you can work on your blog posts there
 
 ### Theme
-The theme used for this blog is a slight modification of [jekyll-qck-theme][https://github.com/qckanemoto/jekyll-qck-theme].
-
-All attributions on style to qckanemoto, I just added some bits here and there. 
+The theme used for this blog is a slight modification of [accent][https://github.com/bk2dcradle/accent].

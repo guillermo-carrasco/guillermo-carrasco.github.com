@@ -44,7 +44,7 @@ I got a total of 42 responses from different organisations, including Harvard
 Medicsurvey_participational School, Princeton University or MIT among other research groups.
 The survey was open for one week (2014-07-07 to 2014-07-12), and I got most of the participation the first day.
 
-<img src="{{ site.url }}/assets/images/genomics_reference/survey_participation.png" alt="Survey participation" align="right">
+<img src="/images/genomics_reference/survey_participation.png" alt="Survey participation" align="right">
 
 A fair amount of research groups, I think. I want to thank everyone that participated in the survey.
 
@@ -59,7 +59,7 @@ My intention with the questions in the survey were to determine:
 
 _<u>Question 1</u>: Do you work only with one species, or several species’ genomes?_
 
-<img src="{{ site.url }}/assets/images/genomics_reference/single_or_multiple_species1.png" alt="Single or multiple species" align="right">
+<img src="/images/genomics_reference/single_or_multiple_species1.png" alt="Single or multiple species" align="right">
 
 I considered this question important because It is not the same if you have to sync
 data from only one specie than if you have to get data from several species.
@@ -71,7 +71,7 @@ This is our case as well, and actually I find this group more interesting for th
 
 <u>_Question 2</u>: What kind of reference data do you use for your research?_
 
-![Reference Usage]({{ site.url }}/assets/images/genomics_reference/reference_usage.png)
+![Reference Usage](/images/genomics_reference/reference_usage.png)
 
 From above’s plot one can see that there is a subset of reference data which use is
 common for almost everyone: Reference Genome and Index Files, with Reference Genome
@@ -87,7 +87,7 @@ Index files for several aligners and all the data in the more common groups.
 
 <u>_Question 3</u>: Where do you fetch your data from?_
 
-![Reference locations]({{ site.url }}/assets/images/genomics_reference/reference_data_locations2.png)
+![Reference locations](/images/genomics_reference/reference_data_locations2.png)
 
 This is the question I was more interested in, because what made me think on this survey was the fact that:
 
@@ -149,4 +149,4 @@ Hope you found this interesting!
 [ucsc]: https://genome.ucsc.edu/
 [ensembl]: http://www.ensembl.org/index.html
 [biomart]: http://biomart.org/
-[responses]: https://github.com/guillermo-carrasco/guillermo-carrasco.github.com/tree/master/assets/codes/genomics_reference
+[responses]: https://github.com/guillermo-carrasco/guillermo-carrasco.github.com/tree/master/codes/genomics_reference

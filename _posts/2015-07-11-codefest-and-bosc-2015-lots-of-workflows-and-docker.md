@@ -9,7 +9,7 @@ tags:
     - commonwl
     - docker
 ---
-![Codefest 2015]({{ site.url }}/assets/images/bosc2015/codefest2015.jpg)
+![Codefest 2015](/images/bosc2015/codefest2015.jpg)
 
 This year’s [BOSC][bosc] is being celebrated in Dublin, Ireland. For the third year in
 a row I am attending to my favourite conference, and as usual, to the 2-days previous Hackathon or [Codefest][Codefest].

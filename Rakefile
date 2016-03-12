@@ -10,6 +10,8 @@ task :test do
         :url_ignore => [
             "https://t.co/tTz4qaCSwQ",
             "https://www.linkedin.com/in/guillermocarrasco"
-        ]
+        ],
+        :check_html => true,
+        :empty_alt_ignore => true
     }).run
 end

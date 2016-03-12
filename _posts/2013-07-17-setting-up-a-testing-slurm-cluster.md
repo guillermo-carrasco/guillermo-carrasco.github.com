@@ -19,14 +19,15 @@ In order to test our connector, we could run our tests on UPPMAX, but this impli
 our tests in the queue, which usually takes time… we’re in a two days hackathon,
 so we’ve to speed up things as much as we can!
 
-<!--more-->
 
 Taking advantage of the situation I would like to explain how to create a mini-local
 cluster in order to test things things that require a cluster. To set up a local testing
 cluster, the only thing you need is Vagrant installed in your machine. I’ve tested
 SLURM with Ubuntu 12.04 LTS box, you can easily add this box to your system running:
 
-`vagrant box add precise64 http://files.vagrantup.com/precise64.box`
+```bash
+vagrant box add precise64 http://files.vagrantup.com/precise64.box
+```
 
 Once you’ve added Ubuntu box to your system, is time to spawn a multi-VM environment
 and set it up. To do so, you just need to follow these steps:
@@ -53,7 +54,7 @@ and create a MUNGE security key:
 4. In the server, copy the key from the vagrant home to the corresponding configuration
 directory and change the ownership to munge user:
 
-    ```bash
+    ```
     sudo cp ~/munge.key /etc/munge
     sudo chown munge /etc/munge/munge.key
     ```
@@ -69,7 +70,7 @@ directory and change the ownership to munge user:
 And that’s all! You can now submit jobs to your mini SLURM cluster, try it out with
 this simple batch script:
 
-```bash
+```
 #SBATCH -p debug
 #SBATCH -n 1
 #SBATCH -t 12:00:00

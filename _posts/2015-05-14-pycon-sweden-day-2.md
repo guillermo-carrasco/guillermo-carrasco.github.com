@@ -7,7 +7,7 @@ tags:
     - python
     - pyconsweden
 ---
-![Guillermo & Robin]({{ site.url }}/assets/images/pycon/our_presentation.png)
+![Guillermo & Robin](/images/pycon/our_presentation.png)
 
 Today was the second day of PyCon Sweden 2015, which marked the end of this fantastic conference.
 After an excellent set of talks the first day, the expectations were high! I have to say though that,
@@ -48,7 +48,8 @@ The talk focused on three main problems that Emil finds in Django.
 
 3. Template components: In order to add an external widget to your application, for example, you need to modify lots of bits of code: Add the JS, add the CSS, and link to those (and place correctly) wherever you have to use them. It would be more convenient and cleaner that adding components was easier and more independent.
 
-## 3. How Python Drives the Analysis of Billions of DNA Sequences – </u>Guillermo Carrasco and Robin Andeer</u>
+## 3. How Python Drives the Analysis of Billions of DNA Sequences – <u>Guillermo Carrasco and Robin Andeer</u>
+
 More about me… nah, you’re already reading my blog. More about Robin [here][robin].
 
 So that was our talk! I’ll let other judge the quality of the talk and I'll say only two things. One is that you can find _everything_ about our talk in [this repository][repo], from the slides to the transcript of what we said (maybe not 100% updated, but informative enough).

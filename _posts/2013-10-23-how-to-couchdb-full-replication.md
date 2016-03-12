@@ -29,7 +29,7 @@ need to be admin in order to replicate them. Citing the [CouchDB documentation][
 What this means is that, in the POST request that you use to trigger the replication,
 you have to prepend the admin credentials, something like:
 
-```
+```bash
 curl -H 'Content-Type: application/json' -X POST http://localhost:5984/_replicate -d ' {"source": "http://admin:admin_password@production:5984/foo", "target": "http://admin:admin_password@stage:5984/foo", "create_target": true, "continuous": true} '
 ```
 This POST request will also work with the _users database.
@@ -48,14 +48,14 @@ pretty well, is to explicitly copy this object. How? Well, this object is just a
 JSON document, so you just need to GET it from the original database, and PUT it in the
 destination one. Would be something like this:
 
-```
+```bash
 curl -X GET http://admin:admin_password@localhost:5984/foo/_security | xargs curl -H 'Content-Type: application/json' -X PUT http://admin:admin_password@localhost:5984/foo/_security -d {}
 ```
 
 Yay! This way you have the database foo completely replicated.
 
 Last but not least, If you’ve read my other posts you may have noticed that I am
-quite a fan of automation, and I usually program in Python. [Here]({{ site.url }}/assets/codes/couchdb_full_replication/couchdb_replication.py) you have a little present.
+quite a fan of automation, and I usually program in Python. [Here](/assets/codes/couchdb_full_replication/couchdb_replication.py) you have a little present.
 This script can be used to automatically set up continuous replication from a source database
 to a destination database. It also has an option to trigger a cloning: The destination
 database will be **completely removed** and the source database will be cloned there.

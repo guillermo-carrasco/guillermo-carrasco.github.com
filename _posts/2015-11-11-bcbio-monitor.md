@@ -10,7 +10,7 @@ tags:
     - Software architecture
 ---
 
-![monitor]({{ site.url }}/assets/images/bcbio-monitor/logo-letters.png)
+![monitor](/images/bcbio-monitor/logo-letters.png)
 
 A typical genomics data analysis lasts usually for several hours or even days, depending on the type
 of analysis performed. A common problem with these kind of analysis is that sometimes its hard, or
@@ -74,44 +74,44 @@ With SSE, the client is updated _only_ on important events, and no useless reque
 
 This is how the final architecture looks like:
 
-![architecture]({{ site.url }}/assets/images/bcbio-monitor/bcbio-monitor-flowchart.png)
+![architecture](/images/bcbio-monitor/bcbio-monitor-flowchart.png)
 
 # bcbio-monitor: Features
 Once the backend architecture was decided, the ""only"" thing remaining was to build the informative
 frontend application. As of by version 1.0, this is how bcbio-monitor looks like:
 
-####Progress flowchart and steps table
+#### Progress flowchart and steps table
 
-![monitor]({{ site.url }}/assets/images/bcbio-monitor/monitor.png)
+![monitor](/images/bcbio-monitor/monitor.png)
 
 The table on the right gives the user information about the finished and running steps, as well as timing
 information readable by humans (thanks to [momentjs][moment]). The flowchart on the left is, to be honest,
 not very informative _on this version_. The idea for the flowchart is to create branches for every computing
 node where the current step is running.
 
-####Percentage of time used by every step
+#### Percentage of time used by every step
 
-![progress]({{ site.url }}/assets/images/bcbio-monitor/progress-bar.png)
+![progress](/images/bcbio-monitor/progress-bar.png)
 
 For quick visual reference of which steps take the longer time
 
-####Constant feedback (optional)
+#### Constant feedback (optional)
 Since the time between steps can be very long, and no feedback would be given to the user in several hours, I
 added the option of showing the last log message read on a small panel:
 
-![message]({{ site.url }}/assets/images/bcbio-monitor/log-message.png)
+![message](/images/bcbio-monitor/log-message.png)
 
 This can be deactivated starting bcbio-monitor with `--no-update`.
 
-####Error detection
+#### Error detection
 
-![error]({{ site.url }}/assets/images/bcbio-monitor/error.png)
+![error](/images/bcbio-monitor/error.png)
 
 In case something goes wrong.
 
-####Summary for the analysis
+#### Summary for the analysis
 
-![summary]({{ site.url }}/assets/images/bcbio-monitor/summary.png)
+![summary](/images/bcbio-monitor/summary.png)
 
 At the end of the analysis, get a summary of the analysis. Same than with the flowchart, this will contain
 more information in future versions.

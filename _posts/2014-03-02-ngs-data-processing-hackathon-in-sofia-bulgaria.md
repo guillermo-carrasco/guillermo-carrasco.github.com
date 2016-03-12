@@ -7,7 +7,7 @@ tags:
     - openscience
     - hackathon
 ---
-![Hackathon]({{ site.url }}/assets/images/ngs_data_processing_hackathon/hackathon.jpg)
+![Hackathon](/images/ngs_data_processing_hackathon/hackathon.jpg)
 
 > A **hackathon** (also known as a hack day, hackfest or codefest) is an event in
 which computer programmers and others involved in software development, including
