@@ -96,7 +96,7 @@
         line-height: 1.8;
         border-left: $small-spacing solid $light-gray-color;
     }
-    img {
+    img:not(.emoji) {
         width: auto;
         height: auto;
         max-width: 100%;
