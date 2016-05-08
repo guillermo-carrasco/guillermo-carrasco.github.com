@@ -3,3 +3,5 @@
 *.lock
 _site
 .DS_Store
+_drafts
+npm-debug.log

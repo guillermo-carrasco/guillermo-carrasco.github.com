@@ -67,7 +67,7 @@ info (i.e an error in the analysis) needs to be presented to the user.
 
 Doing some research I learned about [SSE protocol in HTML5][SSE], and so I decided to go for that.
 SSE is precisely that: The client application subscribes to the server, who publishes messages that all subscribers will
-read. The protocol is robust, and even it you kill bcbio-monitor, when starting it again it will reconnect
+read. The protocol is robust, and even if you kill bcbio-monitor, when starting it again it will reconnect
 to the client.
 
 With SSE, the client is updated _only_ on important events, and no useless requests to the server are needed.
