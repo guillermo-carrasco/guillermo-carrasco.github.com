@@ -16,7 +16,7 @@ For the past few years I have been working on academia. Since even before I fini
 studies, in the [Molecular Biology institute of Barcelona][ibmb], till now at the [Wolfson Wohl Cancer Research Centre][wwcrc].
 Not forgetting the fantastic 3 years I spent at [Science for Life Laboratory][scilifelab].
 
-During this years in academia I've learned a ton, and wouldn't change that for anything.
+During these years in academia I've learned a ton, and wouldn't change that for anything.
 I've evolved professionally, learning to deal with real world problems and
 helping with the architecture of big genomics infrastructures, coding on software used for health research,
 making tools to ease scientists lives, and more. I've evolved personally, by meeting awesome and humble
