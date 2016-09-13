@@ -54,7 +54,7 @@ Docker swarm network on two provided AWS instances. Fortunately he provided [a g
 write so we could listen to the explanations at the same time that we _did_ the workshop.
 
 No much to say about the workshop since it was 100% hands on. Instructive but to be honest I would have
-appreciated a deeper explanation in how the communication layer works, which is still a mistery to me.
+appreciated a deeper explanation in how the communication layer works, which is still a mystery to me.
 
 The coolest part of this talk/workshop was the deployment and demonstration of Netflix's Orchestration
 tool called [Vizceral](https://github.com/Netflix/vizceral) **check that out!**.
