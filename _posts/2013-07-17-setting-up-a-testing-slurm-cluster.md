@@ -32,7 +32,7 @@ vagrant box add precise64 http://files.vagrantup.com/precise64.box
 Once you’ve added Ubuntu box to your system, is time to spawn a multi-VM environment
 and set it up. To do so, you just need to follow these steps:
 
-1. Create the virtual machines: You can use [this](vagrantfile) Vagrantfile from my GitHub to do so.
+1. Create the virtual machines: You can use [this][vagrantfile] Vagrantfile from my GitHub to do so.
 It will create two VM visible between them (a controller and a server/worker),
 and will install SLURM in both of them. It will also copy a very basic SLURM configuration
 file that can be also found in my GitHub account. Run the following command in the
