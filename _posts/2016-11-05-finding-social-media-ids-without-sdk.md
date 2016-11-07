@@ -13,15 +13,15 @@ tags:
 If you are a developer and work with social media, there is most surely a task you've faced. A simple
 task that should be easy but requires either to set up an SDK with OAuth tokens and so on, or use
 web services like [findmyfbid](http://findmyfbid.com/). Exactly, the task is as simple as finding a
-_user id_ from a social media profile.
+_user id_ from a social media username.
 
 There are several reasons for what you would want to store this ID, being the main one its uniqueness.
 Whatever the reason it is, maybe that is the only interaction you want with the social network in that
 moment/service. If so, setting up SDKs with all the authentication process etc, may seem a bit like
 "using a sledgehammer to crack a nut".
 
-Inspecting the source code of the main social media profiles, i.e Facebook, Instagram and Twitter, I
-realized that in all of then, the user ID is embedded in some part in the source code. All I had to do
+Inspecting the html source of the main social media profiles, _i.e Facebook, Instagram and Twitter_, I
+realized that in all of them, the user ID is embedded in some part in the html source. All I had to do
 is find a couple of regexes to mach those parts and.. voilà!
 
 [social_ids][social_ids] is a package I wrote to help precisely
@@ -67,7 +67,7 @@ Right now social_ids works with:
 * Twitter
 * Instagram
 
-Of course [its open source][social_ids], tested, MIT licensed and released to PyPi. If you want to add a social network to it, feel
+Of course [it's open source][social_ids], tested, MIT licensed and released to PyPi. If you want to add a social network to it, feel
 free to submit a Pull Request and I'll have a look :smile:.
 
 Hope its useful for more people! If it was, I'd be happy if you share this post and give the project a star on
