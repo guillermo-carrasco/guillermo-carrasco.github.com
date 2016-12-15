@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Understanding logging in Python"
+description: The standard logging library seems to be a confusing part in the Python programming language. In my case...
 date:   2016-12-15
 comments: true
 tags:
