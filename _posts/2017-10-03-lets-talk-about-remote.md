@@ -11,7 +11,8 @@ positions, to part time or remote-friendly positions.
 
 During my relatively short career, I have had the opportunity of experiencing
 all different flavors of remote working. From my full time remote position at
-[WWCRC][WWCRC] to my current position at [iZettle][iZettle], where remote work is normalized and
+[WWCRC](https://www.gla.ac.uk/researchinstitutes/cancersciences/ics/facilities/wwcrc/)
+to my current position at [iZettle](https://www.izettle.com), where remote work is normalized and
 allows me to spend some days/weeks abroad without having to use my vacation days.
 
 <!--more-->
@@ -55,7 +56,7 @@ not in your office. This is, in my humble opinion, a big mistake. In my experien
 this leads in the end to a feeling of loneliness and exclusion, since you end up
 not taking part of discussions, and thus _decisions_, about what you are at the end working on.
 There are tons of tools to help you communicate with your team when you're away.
-Use them! [Slack][slack], [Appear.in][appear] or [Google Meet][googleMeet] are some examples.
+Use them! [Slack](https://slack.com/), [Appear.in](https;//appear.in) or [Google Meet](https://meet.google.com) are some examples.
 
 ##### What can we (as a team) do?
 There are some easy but important tips that will help the team keep up when people
@@ -75,8 +76,9 @@ said before, it is very easy to end up focusing on your work and ignoring the re
 Join standups if you do them, make your team stream talks you are interested in,
 join meetings, discussions, etc.
 
-Here a capture of my team on a standup using [appear.in][appear], while I was working from Barcelona, Sofia
+Here a capture of my team on a standup using [appear.in](https;//appear.in) while I was working from Barcelona, Sofia
 was working from Östersund, and the rest of the team in the Stockholm office. You can tell it's a Friday, huh? Happy faces, empty desks... :smile:
+
 ![Remote standup](/images/lets-talk-remote/remote.png)
 
 3. **Be remote ready, always**: Be always ready to _welcome_ remote workers into
@@ -94,10 +96,3 @@ friends and family if you are working abroad, conciliate family with work, etc.
 
 I hope you find this useful or at least slightly interesting :joy: If you do, share!
 Opinions, experiences? would love to discuss them with you, write a comment!
-
-<!-- Links -->
-[WWCRC]:
-[iZettle]:
-[slack]:
-[appear]:
-[googleMeet]:
