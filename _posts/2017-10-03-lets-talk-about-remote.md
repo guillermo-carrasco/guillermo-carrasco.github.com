@@ -24,7 +24,7 @@ feeling part of a team.
 #### First things first: Does it work?
 
 **YES**, remote work works. Many companies are still afraid that remote workers will
-not perform. Some people is still skeptical when someone is working remotely.
+not perform. Some people are still skeptical when someone is working remotely.
 
 In my experience, remote work not only works, but it helps _me_ to charge batteries
 and disconnect from routine.
@@ -63,7 +63,7 @@ There are some easy but important tips that will help the team keep up when peop
 is working remote.
 
 1. **Be communicative**: Overlapping with point 3 above, being
-communicative is important for everyone. As a team, involve your remote colleges
+communicative is important for everyone. As a team, involve your remote colleagues
 in discussions and meetings. Talk to them! If someone would join a discussion in the office, they
 should join it when working remotely.
 
@@ -90,7 +90,7 @@ a quiet place where you can listen and talk, etc. You know the drill :wink:
 As you can see, all these tips focus around the idea of collaboration on both sides.
 It's all about inclusion and will :smile:.
 
-I thing remote work is _good_ and at least for me, _necessary_ from time to time.
+I think remote work is _good_ and at least for me, _necessary_ from time to time.
 It is a nice way to change routine, take a break from monotonous life, see your
 friends and family if you are working abroad, conciliate family with work, etc.
 
