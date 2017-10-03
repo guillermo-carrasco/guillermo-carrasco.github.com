@@ -24,7 +24,7 @@ feeling part of a team.
 #### First things first: Does it work?
 
 **YES**, remote work works. Many companies are still afraid that remote workers will
-not perform. Some people still shows skeptical when someone is working remotely.
+not perform. Some people is still skeptical when someone is working remotely.
 
 In my experience, remote work not only works, but it helps _me_ to charge batteries
 and disconnect from routine.
