@@ -62,24 +62,22 @@ Use them! [Slack](https://slack.com/), [Appear.in](https://appear.in/) or [Googl
 There are some easy but important tips that will help the team keep up when people
 is working remote.
 
-1. **Be communicative**: Overlapping with point 3 above, being
-communicative is important for everyone. As a team, involve your remote colleagues
-in discussions and meetings. Talk to them! If someone would join a discussion in the office, they
-should join it when working remotely.
+1. **Be communicative**: Overlapping with point 3 above, being communicative is important for everyone. As a team, involve your remote colleagues in discussions and meetings. Talk to them! If someone would join a discussion in the office, theyshould join it when working remotely.
 
-  As a remote employee, a small thing that I find really nice is to greet everyone when starting
-  and finishing your work day. Informing about long breaks (lunch, walk, run...)
-  also helps the team know you won't be responsive for a while.
+   As a remote employee, a small thing that I find really nice is to greet everyone when starting
+and finishing your work day. Informing about long breaks (lunch, walk, run...)
+also helps the team know you won't be responsive for a while.
 
 2. **Be proactive**: Be proactive when it comes to collaboration and discussions. As
 said before, it is very easy to end up focusing on your work and ignoring the rest of the world.
 Join standups if you do them, make your team stream talks you are interested in,
 join meetings, discussions, etc.
 
-Here a capture of my team on a standup using [appear.in](https://appear.in/) while I was working from Barcelona, Sofia
-was working from Östersund, and the rest of the team in the Stockholm office. You can tell it's a Friday, huh? Happy faces, empty desks... :smile:
+   Here a capture of my team on a standup using [appear.in](https://appear.in/) while I was working from Barcelona,
+Sofia was working from Östersund, and the rest of the team in the Stockholm office.
+You can tell it is a Friday, huh? Happy faces, empty desks... :smile:
 
-![Remote standup](/images/lets-talk-remote/remote.png)
+    ![Remote standup](/images/lets-talk-remote/remote.png)
 
 3. **Be remote ready, always**: Be always ready to _welcome_ remote workers into
 discussions and meeting. Be always ready to _join_ discussions and meetings. Set
@@ -88,7 +86,7 @@ a quiet place where you can listen and talk, etc. You know the drill :wink:
 
 #### Conclusion
 As you can see, all these tips focus around the idea of collaboration on both sides.
-It's all about inclusion and will :smile:.
+It is all about inclusion and will :smile:.
 
 I think remote work is _good_ and at least for me, _necessary_ from time to time.
 It is a nice way to change routine, take a break from monotonous life, see your
