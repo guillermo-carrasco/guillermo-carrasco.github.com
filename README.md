@@ -11,7 +11,7 @@ To run it locally, you'll need to:
 1. Clone the repository: `git clone https://github.com/guillermo-carrasco/guillermo-carrasco.github.com.git`
 2. Install dependencies with `bundle exec jekyll build`
 3. Run the project using the development configuration (just for the base url to work:)
-`jekyll serve --config _config.yml,_config_devel.yml --drafts`
+`bundle exec jekyll serve --drafts --config _config.yml,_config_devel.yml`
 
 ## Structure
 The project follows the standard Jekyll structure. I also added a directory called

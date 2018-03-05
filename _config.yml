@@ -23,8 +23,9 @@ intro: true         # Tip: Remove the span from site_heading if intro is set to 
 # This will be displayed in your intro
 short_bio: >
     Hi there! Welcome to my personal blog :-). I'm a software engineer working on all sort of things.
-    I enjoy not focusing on a particular area, i.e <i>only</i> backend, <i>only</i> frontend, etc. and rather
-    try to learn about everything. Here you can find my last write-ups about whatever I'm
+    I enjoy <i>learning</i> in general, no matter what it is. I'm one of those that gets bored if I'm
+    doing the same stuff over and over again, without any mental stimulation.
+    Here you can find my last write-ups about whatever I'm
     working on. I eventually write some non-tech stuff as well. Enjoy the reading!
 
     If you want to know more about my work, please visit my <a class="underline different-highlight"
