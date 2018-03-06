@@ -20,9 +20,9 @@ write something I can reference in future, more project-based blog posts. Let's 
 
 ## What is Machine Learning
 It is very easy to get confused with all the terms: Artificial Intelligence,  
-Machine Learning, Data Science, Deep Learning, etc. People tends to use any of those
-terms to talk about... anything?! The truth is talks about the same. Or at least
-is how I perceive it. The main idea is, to me:
+Machine Learning, Data Science, Deep Learning, etc. People tend to use any of those
+terms to talk about... anything?! The truth is that all of them talk about the same _idea_.
+Or at least it is how I perceive it. The main idea is, to me:
 
 > Machine Learning is about giving computers the ability to learn from data  
 
@@ -35,17 +35,18 @@ well, data. When you hear or read something about "training an algorithm" what i
 means is that you're feeding an algorithm with data.
 
 This data needs to be converted to vectors of "features", which are almost always
-represented as numbers. This data can be labeled or not, and depending of the case
+represented as numbers. This data can be labeled or not, and depending on the case
 we are talking about two different types of "learning".
 
 ### Supervised Learning
 When the data is labeled, meaning that we _know_ stuff about the data, we are talking
-about _supervised learning_. The data we feed the algorithm with is usually called
+about _supervised learning_. An example would be a list of clinical samples with a label saying if
+the patient had cancer or not. The data we feed the algorithm with is usually called
 a _training set_. Supervised learning focuses mainly in classification
 and prediction tasks.
 
-As a very silly example, suppose we have a data array which contains the number of
-hours studied in a subject and the average grade obtained having studied those hours.
+As a very silly example, suppose we have a data file that contains a list of students. For each student,
+we have the number of hours studied in a subject and the average grade obtained having studied those hours.
 Something like this:
 
 | Student | Hours studied | Grade  |
@@ -58,12 +59,13 @@ We could represent this data in a scatter plot
 
 ![Data points](/images/machine-learning-101/data_points.png)
 
-The target of a ML algorithm in this case would be to _predict which grade will a
+The target of an ML algorithm in this case would be to _predict which grade will a
 student obtain given the amount of hours she has studied_. To do so, the algorithm
 is going to try to find the best parameters for a function so that given a number
 of hours, its output is the grade the student will probably get. In terms of this
 example, and being a 2 dimensional problem, the algorithm is trying to find the
-line that best fits all training examples.
+line that best fits all training examples. In a 3 dimensional problem it would try to find the
+best hyperplane, etc.
 
 This is better seen with an example:
 
@@ -71,7 +73,7 @@ This is better seen with an example:
 
 As you can see, there are many possible lines that could potentially predict the grade.
 A good machine learning algorithm tries to find **the best** line (function) in
-order to make reasonable predictions.
+order to minimize the prediction error.
 
 It is important to notice that the best line is not the one that better fits our
 training data. If we adjust too much our function, we risk **overfitting** (red line in the figure).
@@ -104,17 +106,17 @@ complicated to understand than clustering algorithms (in my humble opinion), the
 idea behind a neural network is that information passes through many interconnected
 processing steps. The number of steps that the algorithm takes is what we call
 **layers** in a NN. The name "neural network", as fancy as it sounds, comes from
-the idea behind the algorithm, that is inspired in what we know about how neurons
+the idea behind the algorithm, which is inspired in what we know about how neurons
 in our brain work.
 
 Neural networks are computationally very expensive and thus they have been an object
-of merely study until recent years. Thanks to an increasing computational power, we
+of study only until recent years. Thanks to the increasing computational power, we
 can now compute tasks that were just impossible before. This has opened up a new
 world in ML, allowing us to compute neural networks with many layers of depth. This
 is what we call **deep learning** nowadays.
 
 #### That's it for now
-Obviously, there is muuch more to ML than what I wrote in this post. But that's
+Obviously, there is much more to ML than what I wrote in this post. But that is
 why there are so many interesting books about the topic. I hope this post can serve
 as a reference for anyone that wants a quick introduction to the basic concepts
 of machine learning. If you find it interesting and want to move forward, here
