@@ -101,7 +101,7 @@ You can read about some specific implementations of clustering algorithms [here]
 
 Unsupervised learning algorithms also suffer from overfitting and underfitting problems.
 
-**Neural networks** (NN) belong also to unsupervised learning. Though they are more
+**Neural networks** (NN) can be supervised or unsupervised. Though they are more
 complicated to understand than clustering algorithms (in my humble opinion), the main
 idea behind a neural network is that information passes through many interconnected
 processing steps. The number of steps that the algorithm takes is what we call
