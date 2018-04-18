@@ -24,7 +24,7 @@ there for details if you're interested in a particular talk!
 The conference started with a keynote from Uber, Matt Ranney. Matt is a software
 engineer working in the self-driving car division at Uber. The talk gave an overview
 of how self-driving cars can help reduce accidents and save time. Specially for
-Americans, who spend around 293 hours/day in a car! Matt also talked about how a self-driving
+Americans, who spend around 293 hours/year in a car! Matt also talked about how a self-driving
 car works on global terms. He also explained with some level of detail the infrastructure
 that Uber has for testing and releasing new versions of the cars.
 
