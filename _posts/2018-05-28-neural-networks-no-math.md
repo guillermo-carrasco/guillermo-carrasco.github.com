@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What is a Neural Network? No maths explanation"
-date:   2018-05-26
+date:   2018-05-28
 comments: true
 tags:
     - deep learning
