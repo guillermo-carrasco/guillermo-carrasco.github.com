@@ -58,7 +58,7 @@ properly preprocessed and converted into numbers, are going to be the input of
 our network, while the price is going to be the expected result, or _ground truth_.
 
 Since each unit in a layer affects each unit in the consecutive layer, if we have
-one hidden layer and an output layer, that makes already a network with **18 parameters**
+one hidden layer with 3 neurons and an output layer, that makes already a network with **18 parameters**
 to tune: `5*3` for the input layer to hidden layer + `3*1` for the hidden layer to the
 output layer.
 
@@ -66,7 +66,8 @@ That may sound very few parameters, but this was just a **very** simple and illu
 example. The classical example when studying Neural Network is the [MNIST][mnist] dataset
 of handwritten digits. Each digit is represented as a 28x28 pixels image in grayscale.
 When unfolding the image to input it to a network, it is converted to a vector of
-28*28 = **784 input features**. As you can see things escalate quickly.
+28*28 = **784 input features**. As you can see things escalate quickly. And this is
+only for 28x28 pixel images!
 
 This exponential growth of parameters makes Neural Networks computationally very expensive,
 and this is why until recent years they've been mostly an academic research topic.
@@ -112,23 +113,27 @@ make sure its accuracy goes in pair with the accuracy of the training set.
 ### Making predictions
 
 Once the network is trained, in order to make a prediction we only need to perform
-a _forward pass_ and get the result from the output layer. I the result is a continuous
-value, like the one our example (remember, house prices), the output as it is is
-what we want. If instead we're on a classification problem, then what we get in
-the probability of the input sample to belong to the positive class. Thus we need
-a threshold function to determine if we classify it as class A or B. A usual threashold
-is `0.5`, though it depends on the problem in hand.
+a _forward pass_ and get the result from the output layer. If the result is a continuous
+value, like the one in our example (remember, house prices), the output is already
+what we want. If instead we're on a classification problem (for example disease prediction), then the output of the
+network is not _exactly_ what we want. The output in this case will be the probability
+of the input sample to belong to the positive class. This is a number between 0 and 1.
+Thus we need a threshold function to determine if we classify it as positive or not.
+A usual threshold is `0.5`, though it depends on the problem in hand:
+
+* If output >= 0.5 then we classify as diseased
+* If output < 0.5 then we classify as not diseased
 
 ### Final notes
 The number of hidden layers, units per hidden layer, learning rate and many other choices are
-**hyperparameters** of a Neural Network. To find the best hyperparameters for your
-problem, you must investigate by modifying them and training your network, until you
+**hyperparameters** of a Neural Network. To find the best hyperparameter values for your
+problem, you must investigate by modifying them and training your network until you
 get results you're happy with. Unfortunately there are no rules for how to initially
-define those parameters initially, other than intuition and experience. It is for
+define those parameters other than intuition and experience. It is for
 all these reasons that training a Neural Network is computationally hard.
 
-I hope this post wa suseful and you have a slightly clearer idea of what a Neural
-Network really does. If you're interested in knowing more technical details, let me
+I hope this post was useful and you have a slightly clearer idea of what a Neural
+Network really does. If you are interested in knowing more technical details, let me
 know in the comments and I may write a complete, step by step implementation with
 explanations :smile:, share!
 
