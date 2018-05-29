@@ -14,7 +14,7 @@ tags:
 > Please check it out! It is a really amazing and educational channel
 
 > Disclaimer 2: This is intentionally a very simplistic explanation of what a Neural
-> Network is. The intention of this blog post is to shade a light on the concept
+> Network is. The intention of this blog post is to shade some light on the concept
 > of Neural Network only, not to provide technical details on how to implement one
 
 Hidden layers, linear algebra, calculus, feedforward, backpropagation... the first time you read about
