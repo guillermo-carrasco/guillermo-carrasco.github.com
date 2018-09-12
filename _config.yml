@@ -1,7 +1,7 @@
 # User Settings | Edit there as per required
 
 title: Mussol's blog
-url: "http://mussol.org"
+url: "https://mussol.org"
 baseurl: ""
 
 # This will show up at the top of index page
@@ -13,7 +13,7 @@ author: Guillermo Carrasco
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    Blog about computer science, technology and more
+    Blog about computer science, machine learing and more
 
 # This will what will show against &copy; in the footer
 copyright: Guillermo Carrasco
