@@ -6,6 +6,11 @@ layout: default
 
 <section class="post-list">
     <div class="container">
+      <form action="{{ site.baseurl }}/search" method="get">
+        <input type="text" id="search-box" name="query" placeholder="Search in the blog...">
+      </form>
+    </div>
+    <div class="container">
         {% for post in paginator.posts %}
             <div class="post-preview">
                 <span class="post-title alignable pull-left">
