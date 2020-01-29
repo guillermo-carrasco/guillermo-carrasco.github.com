@@ -22,15 +22,15 @@ copyright: Guillermo Carrasco
 intro: true         # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    Hi and welcome to my blog! I am a Software Engineer with deep interest in Machine Learning and
-    Data Science.
+    Hi and welcome to my blog! I am a Machine Learning Engineer with background in Software Engineering.
 
     I use writing as a tool for making sure I understand the topic I'm writing about. At the same
-    time I hope that my posts help others as well.
+    time, I hope that my posts help others as well.
 
     If you want to know more about my work, please visit my <a class="underline different-highlight"
-    href="https://github.com/guillermo-carrasco">GitHub</a> or my <a class="underline different-highlight"
-    href="https://www.linkedin.com/in/guillermocarrasco">Linkedin</a>.
+    href="https://github.com/guillermo-carrasco">GitHub</a>, my <a class="underline different-highlight"
+    href="https://www.linkedin.com/in/guillermocarrasco">Linkedin</a> or my <a class="underline different-highlight"
+    href="https://twitter.com/guillemch">twitter</a>.
 
     Enjoy reading, and don't hesitate to leave a comment!
 
