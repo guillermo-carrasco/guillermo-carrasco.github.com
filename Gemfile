@@ -9,3 +9,4 @@ gem 'jekyll-github-metadata'
 gem 'jekyll-mentions'
 gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
+gem "webrick"

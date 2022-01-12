@@ -7,3 +7,5 @@ npm-debug.log
 .bundle
 .rubyversion
 vendor
+.idea
+.ipynb_checkpoints
