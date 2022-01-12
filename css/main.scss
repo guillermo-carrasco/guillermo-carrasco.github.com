@@ -29,3 +29,8 @@ input[type=text]:focus {
 form {
     text-align: -webkit-center;
 }
+
+// Image captions
+img + em {
+    color: gray;
+}
