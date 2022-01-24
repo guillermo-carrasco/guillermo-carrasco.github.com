@@ -1,6 +1,6 @@
 # User Settings | Edit there as per required
 
-title: Mussol's blog
+title: Guillermo Carrasco
 url: "https://guillermoch.com"
 baseurl: ""
 
@@ -13,7 +13,7 @@ author: Guillermo Carrasco
 # This description will show up in google search results
 # (for index page) etc.
 description: >
-    Blog about computer science, machine learing and more
+    Blog about computer science, machine learning and more
 
 # This will what will show against &copy; in the footer
 copyright: Guillermo Carrasco
@@ -38,7 +38,7 @@ permalink: pretty
 
 # Comments are powered by disqus
 comments: true
-disqus: mussol
+disqus: guillermoch
 
 # keep about_stub roughly 12 words long for best results
 # This will show up at the bottom of each post

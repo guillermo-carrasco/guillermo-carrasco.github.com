@@ -1,4 +1,4 @@
-# Mussol blog
+# Guillermo Carrasco - Personal blog
 
 
 This repository contains the whole source code for my blog, including images,
