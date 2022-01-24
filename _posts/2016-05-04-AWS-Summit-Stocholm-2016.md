@@ -139,7 +139,7 @@ P.S: Bonus from the conference:
 
 [summit]: https://aws.amazon.com/summits/stockholm
 [cases]: https://aws.amazon.com/solutions/case-studies/
-[elk]: http://mussol.org/2013/10/02/determining-buffer-size-for-redishandler-in-python-logbook/
+[elk]: http://guillermoch.com/2013/10/02/determining-buffer-size-for-redishandler-in-python-logbook/
 [izettle]: https://www.izettle.com
 [pci]: https://en.wikipedia.org/wiki/Payment_Card_Industry_Data_Security_Standard
 [mojang]: https://mojang.com/

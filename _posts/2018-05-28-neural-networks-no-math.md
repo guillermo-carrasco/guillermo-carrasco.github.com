@@ -142,6 +142,6 @@ Cheers!
 <!-- Links -->
 [nn-video]: https://www.youtube.com/watch?v=aircAruvnKk
 [backprop]: https://medium.com/@karpathy/yes-you-should-understand-backprop-e2f06eab496b
-[ml-post]: http://mussol.org/2018/03/06/machine-learning-101/
+[ml-post]: http://guillermoch.com/2018/03/06/machine-learning-101/
 [mnist]: http://yann.lecun.com/exdb/mnist/
 [gradient]: https://en.wikipedia.org/wiki/Gradient_descent

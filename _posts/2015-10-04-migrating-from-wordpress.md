@@ -37,7 +37,7 @@ This is over! I can now edit my posts in markdown and I **know** in advance how 
 
 ### Too much money
 WordPress is free, yes, _but_ you get adds in your posts and some space limitations. That didn't bother me
-that much... until I bought my mussol.org domain. After paying for my domain, I discovered that I had to pay
+that much... until I bought my guillermoch.com domain. After paying for my domain, I discovered that I had to pay
 to WordPress so that they allowed me to use it... whut? It was even more expensive than the cost of the
 domain itself, and they didn't even removed the adds... bad WordPress, bad!
 

@@ -4,7 +4,7 @@
 This repository contains the whole source code for my blog, including images,
 code and more.
 
-Go to www.mussol.org to visit it!
+Go to www.guillermoch.com to visit it!
 
 To run it locally, you'll need to:
 
