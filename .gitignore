@@ -10,3 +10,4 @@ vendor
 .idea
 .ipynb_checkpoints
 tmp
+.jekyll-metadata
