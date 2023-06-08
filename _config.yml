@@ -58,7 +58,7 @@ favicon_location: "images/favicon.png"
 profile_picture: "images/me.png"
 paginate: 5
 paginate_path: "/page/:num"
-tracking_id: UA-65046630-2 # GA Tracking ID
+tracking_id: G-2444BH9EQZ # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
 og_image: "images/avatar.png" # This will show in facebook thumbnails
